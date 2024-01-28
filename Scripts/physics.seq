@@ -1,0 +1,42 @@
+gravity 800;
+friction 5.2;
+jump 260;
+aircontrol 0;
+autobhop true;
+
+groundspeed 320;
+groundaccel 7.5;
+groundstop 80;
+
+airspeed 320;
+airaccel 2;
+airstop 3;
+// very old
+//airspeed 30;
+//airaccel 15;
+
+// very old
+//strafeaccel 4;
+strafeaccel 3;
+
+sprintspeed 170;
+// not that old
+//sprintspeed 170;
+// very old
+//sprintspeed 270;
+sprintaccel 15;
+sprintstop 80;
+
+crouchspeed 35;
+// not that old
+//crouchspeed 75;
+crouchaccel 15;
+// not that old
+//crouchstop 50;
+crouchstop 30;
+
+noclipspeed 300;
+noclipspeedsprint 400;
+noclipspeedcrouch 120;
+
+antinoobhop 0;

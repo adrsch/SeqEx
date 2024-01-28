@@ -1,0 +1,149 @@
+!UIPageAsset
+Id: 438852d0-03cf-4dec-ac84-861fcd2054b1
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Canvas ref!! 98caba1c-3bd2-45bc-a6e9-189a1b89b8ff
+    Parts:
+        -   UIElement: !ScrollViewer
+                Id: 053d03d1-941a-4cc0-a7a7-cdff0e1283ca
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 355.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: scroller
+                Padding: {}
+                ScrollBarColor: {R: 25, G: 25, B: 25, A: 255}
+                ScrollMode: HorizontalVertical
+                Content: !TextBlock ref!! bc1da0a1-21d4-40b9-b6fd-ad043b462404
+        -   UIElement: !ImageElement
+                Id: 136387bc-e07b-48aa-b9e1-1c894d987f1e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 29.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: null
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !ScrollingText
+                Id: 210ba673-20d0-4a7b-a1db-0c8e0410f58d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 4
+                Width: 1280.0
+                Height: 40.0
+                Margin: {Top: 26.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: '// developer console // press ~ or select to toggle '
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 12.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !Canvas
+                Id: 98caba1c-3bd2-45bc-a6e9-189a1b89b8ff
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    80b89754322fc9589bccf977ea833fa8: !ImageElement ref!! b92d9b5b-2fc0-4956-957a-b1c55248573d
+                    14396d4ef72e24f0a73695c9f1b7a261: !ScrollViewer ref!! 053d03d1-941a-4cc0-a7a7-cdff0e1283ca
+                    24da16fc37e37d95271667d247c5f6d2: !Grid ref!! d0d25659-e8f7-46bc-a6b6-8b6b42d84261
+                    dc91cad042e0ace5e71ad068d4f57a38: !EditText ref!! c16c41af-da7f-4d07-83b4-0dc34306b453
+        -   UIElement: !ImageElement
+                Id: b92d9b5b-2fc0-4956-957a-b1c55248573d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 378.00003
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !TextBlock
+                Id: bc1da0a1-21d4-40b9-b6fd-ad043b462404
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Left: 5.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: log
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !EditText
+                Id: c16c41af-da7f-4d07-83b4-0dc34306b453
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 1280.0
+                Height: 33.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 356.00003}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: console
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: null
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: null
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: null
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+        -   UIElement: !Grid
+                Id: d0d25659-e8f7-46bc-a6b6-8b6b42d84261
+                DependencyProperties: {}
+                BackgroundColor: {R: 235, G: 179, B: 61, A: 0}
+                Width: 1280.0
+                Height: 29.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    029e821feefb89b77ef8d882bd177111: !ImageElement ref!! 136387bc-e07b-48aa-b9e1-1c894d987f1e
+                    4dc11bebfce0f660d11607f1ff7092e0: !ScrollingText ref!! 210ba673-20d0-4a7b-a1db-0c8e0410f58d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}

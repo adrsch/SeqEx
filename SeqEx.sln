@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeqEx.Windows", "SeqEx.Windows\SeqEx.Windows.csproj", "{4D21D1EB-4910-44CC-87C9-4D86265A2F31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeqEx.Game", "SeqEx.Game\SeqEx.Game.csproj", "{2FC18D2B-C3A7-45C6-A86B-4FB693E85388}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEQ.Script", "..\SeqScript\SEQ.Script\SEQ.Script.csproj", "{A49C3F79-51B9-421F-92D0-EC2E3DB64662}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEQ.Script.Core", "..\SeqScript\SEQ.Script.Core\SEQ.Script.Core.csproj", "{86CD3F00-A1CE-45B2-B6B3-CC0A5EB9C055}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEQ.Sim", "..\SeqSim\SEQ.Sim\SEQ.Sim.csproj", "{CD2880D2-A806-4239-8347-73E036B92496}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEQ.Steam", "..\SeqSteam\SEQ.Steam\SEQ.Steam.csproj", "{9C7620B4-CB4D-48D8-9103-19ECE9790B15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D21D1EB-4910-44CC-87C9-4D86265A2F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D21D1EB-4910-44CC-87C9-4D86265A2F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D21D1EB-4910-44CC-87C9-4D86265A2F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D21D1EB-4910-44CC-87C9-4D86265A2F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC18D2B-C3A7-45C6-A86B-4FB693E85388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC18D2B-C3A7-45C6-A86B-4FB693E85388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC18D2B-C3A7-45C6-A86B-4FB693E85388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC18D2B-C3A7-45C6-A86B-4FB693E85388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49C3F79-51B9-421F-92D0-EC2E3DB64662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49C3F79-51B9-421F-92D0-EC2E3DB64662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49C3F79-51B9-421F-92D0-EC2E3DB64662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49C3F79-51B9-421F-92D0-EC2E3DB64662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CD3F00-A1CE-45B2-B6B3-CC0A5EB9C055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CD3F00-A1CE-45B2-B6B3-CC0A5EB9C055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CD3F00-A1CE-45B2-B6B3-CC0A5EB9C055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CD3F00-A1CE-45B2-B6B3-CC0A5EB9C055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2880D2-A806-4239-8347-73E036B92496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2880D2-A806-4239-8347-73E036B92496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2880D2-A806-4239-8347-73E036B92496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2880D2-A806-4239-8347-73E036B92496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7620B4-CB4D-48D8-9103-19ECE9790B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7620B4-CB4D-48D8-9103-19ECE9790B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7620B4-CB4D-48D8-9103-19ECE9790B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7620B4-CB4D-48D8-9103-19ECE9790B15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

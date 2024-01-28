@@ -1,0 +1,1186 @@
+!SceneAsset
+Id: 662ad5f6-c01f-4667-ad47-518cc0e53bc1
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 6b2b4da1-6dc5-49d9-8bd8-16d3e194391a
+        - ref!! 8441c868-e0f2-47bb-ab87-2644aa8e498b
+        - ref!! e71c49fc-16e7-4088-8751-9263b4a06c2e
+        - ref!! 976223a0-5a6d-400b-b872-fab4a93f68bb
+        - ref!! c66103fa-1b84-42d7-bb10-5ec4796fbd41
+        - ref!! 187e40b3-ca22-44dd-b500-c1103c74d966
+        - ref!! 0d211be7-58c2-46d0-8d3e-48c2d0cedfc2
+        - ref!! 48a81ece-94a9-4f93-9a4b-688802b99a72
+        - ref!! e197eab9-2d64-427e-a448-9af6b4a81743
+        - ref!! 1b905aa8-9bc4-49e8-9ae6-23252e0d7def
+        - ref!! c0d738f4-f72b-4942-a82b-e1eb52550f25
+        - ref!! c1273ab0-c4ef-4cef-891b-63820d102668
+        - ref!! d6ba9780-0efd-425a-aabf-2f52bfdf65bc
+        - ref!! c654fc2b-9314-4883-8a82-d32267c50248
+        - ref!! 2bbc5930-04cf-4349-a849-7b0814152a33
+        - ref!! f77b8efe-b6dc-4e0c-86b8-2f556bee4507
+        - ref!! 17968cfb-eaf9-4ee4-afff-168c99324050
+        - ref!! a5228727-0b1b-4595-8f5a-fdbcdb7f34cb
+        - ref!! b69c407b-5a9b-4bca-9268-fdd037229a47
+        - ref!! 141792c4-098c-42e2-921f-806668178cf2
+        - ref!! 1725d569-f4a4-44b5-8396-0e8b146bf5d9
+    Parts:
+        -   Folder: Lights
+            Entity:
+                Id: 0d211be7-58c2-46d0-8d3e-48c2d0cedfc2
+                SeqId:
+                    Hash: -939090378
+                    Id: 9181d373-21ef-43e1-a562-bdbe036b9070
+                Name: NightAmbient
+                Components:
+                    53601749b70e4446921511393e38a000: !TransformComponent
+                        Id: 3ada4481-c68c-4f33-a802-4176b3a91682
+                        Position: {X: -7.204221, Y: 26.20695, Z: -4.843518}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    90bb395a55a1e34bb46aa14806033dd7: !LightComponent
+                        Id: 57566b6b-b9ef-4fea-b5ef-bfe348ed7c1c
+                        Enabled: false
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.8745098, G: 0.7411765, B: 0.84705883}
+                        Intensity: 0.0
+                        RenderGroup: Group0
+        -   Entity:
+                Id: 141792c4-098c-42e2-921f-806668178cf2
+                SeqId:
+                    Hash: 1286703053
+                    Id: c490368c-3559-463f-9feb-fd9392b6b0aa
+                Name: Box1x1x1
+                Components:
+                    f465942107eaf3a22fb307807d03152b: !TransformComponent
+                        Id: 2491c096-eae3-4956-82c4-e3cc6ff2d692
+                        Position: {X: 27.418262, Y: -5.041018, Z: -4.1419487}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 21.00681, Y: 1.0, Z: 21.767435}
+                        Children: {}
+                    364a3753fa42e1734de9d96949b28e37: !ModelComponent
+                        Id: 0fb49f83-408c-49ca-a2c6-729bc093d161
+                        Model: 1698c01b-6454-4847-8433-5d2f8c138da9:Models/Box1x1x1
+                        Materials: {}
+                    f8d08018016412daf869f85cee14106f: !StaticColliderComponent
+                        Id: 283dc1f5-3030-4d9f-869f-57f321e1b536
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            fe2f3fe15752991b2aa5aca3325ab159: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 10.0, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: Lights
+            Entity:
+                Id: 1725d569-f4a4-44b5-8396-0e8b146bf5d9
+                SeqId:
+                    Hash: -970330419
+                    Id: 6437d217-78a1-4c96-8c90-27885b03895c
+                Name: Skybox
+                Components:
+                    8d16c996d7c9c54eb5a2d12ea4ba3d7c: !TransformComponent
+                        Id: cc76fae5-7a35-4d17-9e01-0d6b03ffd206
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ac01fe8ecaadef41b216daac5718fc50: !LightComponent
+                        Id: 0f689b64-5d21-4db0-907b-f7041d2112d2
+                        Type: !LightSkybox
+                            Skybox: 1a895b4d-f1a7-4194-9987-7575bdfe608a:Skybox
+                        Intensity: 0.75
+                        RenderGroup: Group0
+                    8033c195faf34b2aacd30afd3844aa42: !BackgroundComponent
+                        Id: 73f96c70-616f-47e5-a97d-756c06dd8e1a
+                        Texture: 301d72cc-db37-46ee-94f7-6083f329e9c6:Skybox Texture
+                        TextureB: null
+                        Mix: 0.0
+                        Intensity: 3.0
+        -   Folder: AUDIO
+            Entity:
+                Id: 17968cfb-eaf9-4ee4-afff-168c99324050
+                SeqId:
+                    Hash: 2058520233
+                    Id: ade0d809-3816-4905-9ba4-87ee853e5942
+                Name: HiVerb
+                Components:
+                    74df447c52d3ba3c3171518541a356b0: !TransformComponent
+                        Id: 64213118-dea0-48a4-b40f-2c64fbb9f1f6
+                        Position: {X: 211.43053, Y: -11.337521, Z: -136.972}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 10.218736, Y: 2.4694397, Z: 2.5075407}
+                        Children: {}
+                    c733a43d8e1253b5dc7daa141c5b5d91: !ModelComponent
+                        Id: 6e500f7a-d888-46dc-9948-2923ebea611c
+                        Enabled: false
+                        Model: 1698c01b-6454-4847-8433-5d2f8c138da9:Models/Box1x1x1
+                        IsShadowCaster: false
+                        Materials:
+                            0dd551b7d31afafa1ac72b7289214cd1~0: f015788e-7cf5-4fc9-852c-2c698b524edc:Materials/GridMT
+                    1ee43f86f6ad44fd8a9bc44b11acdf3c: !SEQ.Script.ReverbZone,SEQ.Script
+                        Id: 091db822-867c-4fc3-95d6-80c3e067b3d5
+                        UpdateDelay: 100
+                        ZonePriority: 100
+                        Wet: 0.9
+                        Dry: 0.1
+        -   Entity:
+                Id: 187e40b3-ca22-44dd-b500-c1103c74d966
+                SeqId:
+                    Hash: 434311748
+                    Id: 12d28e02-a048-4b4d-ab62-a1004b6ea24c
+                Name: Navmeshes
+                Components:
+                    1c735857389dc987eac93407f8e30ca4: !TransformComponent
+                        Id: d1017c31-62ac-4f88-880f-8540f93221a1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            86f2885e44b6f2f6b3ae2ec1e878efc4: ref!! 636c96f7-9dea-42d2-901e-d9e56d0ef8a9
+                            e6ef8f78ad3cfe56b771c0a8c79aa377: ref!! 3aa19d6d-f94e-4deb-a02b-680db9af9c82
+                    0d587f7064464c6431a13d5af5ee7af8: !SEQ.Sim.Navmeshes,SEQ.Sim
+                        Id: 0e822547-838d-4e44-ada5-f8d9c06497b9
+                        Priority: -10
+                        DefaultNav: ref!! 7e841edc-2942-4e67-9a65-3dc3417efc33
+                        SmashNav: ref!! bd294c0f-77bd-4d1e-85bd-024b6907a0ae
+                        QuerySettings:
+                            FindNearestPolyExtent: {X: 4.0, Y: 6.0, Z: 4.0}
+                            MaxPathPoints: 1024
+        -   Entity:
+                Id: 1b905aa8-9bc4-49e8-9ae6-23252e0d7def
+                SeqId:
+                    Hash: 740627689
+                    Id: 0f5517cb-9ec0-4cff-8e9a-08cabaf00e74
+                Name: spawners
+                Components:
+                    4bb13677ffd97248e2d26595d2b663be: !TransformComponent
+                        Id: 19fbe17c-4c7a-4236-8236-095a97cfd9e9
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            48cbdcf9a129f731d13fe7c8b977332a: ref!! 425cb827-763b-4665-b757-76dc8e81eb65
+        -   Folder: GUI
+            Entity:
+                Id: 2bbc5930-04cf-4349-a849-7b0814152a33
+                SeqId:
+                    Hash: -1441133381
+                    Id: e6446ccf-add7-4414-978a-05b35b0919c1
+                Name: ConsoleUI
+                Components:
+                    a1e00ae4cb4522cab63fad0632f87c0e: !TransformComponent
+                        Id: 4ac5b635-a857-4e72-8800-2b74826cdb21
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    51c6608bbbf04950bff15ea35ae14dce: !UIComponent
+                        Id: f49cbb49-11ed-4683-816f-4b95d82b749f
+                        Enabled: false
+                        Page: 438852d0-03cf-4dec-ac84-861fcd2054b1:UI/Console
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 2000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                        ResolutionStretch: FixedHeightAdaptableWidth
+                        RenderGroup: UI
+                    27a154b830adcff19aeff770cf64bc98: !SEQ.Script.ConsoleLog,SEQ.Script
+                        Id: eea16431-86c5-434b-b9ca-8e4fbe45ce49
+                        page: 438852d0-03cf-4dec-ac84-861fcd2054b1:UI/Console
+                        PageComponent: ref!! f49cbb49-11ed-4683-816f-4b95d82b749f
+        -   Folder: null
+            Entity:
+                Id: 3d5f8ee2-936e-4238-9f54-026420d0bf13
+                SeqId:
+                    Hash: -1678555232
+                    Id: 177deb3f-0f75-4a43-874d-78164751fe6d
+                Name: gunspawner
+                Components:
+                    1b6e8aac9aec18b70943fcab5e0f6a7a: !TransformComponent
+                        Id: 64f88ff6-6455-4047-ae1e-ab6ed7d7b0ef
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            345fae85cbeafcaa34b13af6a59d0cac: ref!! d61439af-5866-49fb-94fc-3e28ecac12e9
+                    c0b1972af0273345dd53df8f22d0cd8b: !SEQ.Script.Core.ActorSpawn,SEQ.Script.Core
+                        Id: 39175322-41f8-40d2-9dc6-3e00e366fd95
+                        IdOverride: null
+                        Species: gun
+                        Quantity: 1
+                        Vars:
+                            f2cdc6d1b3ca379ec28b1c5e494c5f2b~ammo: 20
+            Base:
+                BasePartAsset: dc5e40cf-4726-4687-b662-08b48850673d:Actors/Gun/gunspawner
+                BasePartId: c55f74c1-8d52-459a-b4af-9066700cfd56
+                InstanceId: 5a1b1f6d-d5b3-4125-9a26-2e8adb2fed97
+        -   Folder: Lights
+            Entity:
+                Id: 48a81ece-94a9-4f93-9a4b-688802b99a72
+                SeqId:
+                    Hash: 1102086874
+                    Id: 56b5f3af-19d8-43c7-bb64-74a4be3bdc24
+                Name: DayAmbient
+                Components:
+                    53601749b70e4446921511393e38a000: !TransformComponent
+                        Id: 4722888d-9d2c-4985-8d57-da9191623f8e
+                        Position: {X: -7.204221, Y: 26.20695, Z: -4.843518}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    90bb395a55a1e34bb46aa14806033dd7: !LightComponent
+                        Id: b45a48a9-0c0e-4073-a234-00e94f9fb2df
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.35546875, G: 0.41085172, B: 0.625}
+                        RenderGroup: Group10
+        -   Folder: null
+            Entity:
+                Id: 48e8d863-cdd0-407b-9572-77926e7c52c8
+                SeqId:
+                    Hash: 325831161
+                    Id: e2d33995-8b49-40e4-9c3b-19ca4d0df333
+                Name: Gun
+                Components:
+                    a9c79a3bf064f945b8cb4a186967953c: !TransformComponent
+                        Id: 8c5551c6-7d36-41eb-854c-31a3df952ae6
+                        Position: {X: -0.7336037, Y: -4.3726203E-08, Z: -1.137801}
+                        Rotation: {X: -0.70710677, Y: -0.70710677, Z: -3.090862E-08, W: -3.090862E-08}
+                        Scale: {X: 4.7996597, Y: 4.7996597, Z: 4.7996597}
+                        Children: {}
+                    efd695c8917b8a42a02ea11321380575: !ModelComponent
+                        Id: fedec6d9-306d-408c-afe3-91c9be2d4451
+                        Model: 1cb790c5-3919-457f-9bc1-7c9ca6b23349:Models/MachinegunModel
+                        Materials: {}
+            Base:
+                BasePartAsset: dc5e40cf-4726-4687-b662-08b48850673d:Actors/Gun/gunspawner
+                BasePartId: f2ffaeca-ab69-4ad0-8656-a0db89dd15c0
+                InstanceId: 5a1b1f6d-d5b3-4125-9a26-2e8adb2fed97
+        -   Folder: null
+            Entity:
+                Id: 5c777eec-ddd0-4446-8e12-510154c20038
+                SeqId:
+                    Hash: -1744222857
+                    Id: f777f492-b193-4497-af6d-7274671c28e9
+                Name: playerSpawner
+                Components:
+                    2dfd1bb90790c7f34138cdacc0122a7c: !TransformComponent
+                        Id: 425cb827-763b-4665-b757-76dc8e81eb65
+                        Position: {X: 0.0, Y: 14.879, Z: 15.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    542fd673f8253efe6788d20ed0bad27d: !SEQ.Script.Core.ActorSpawn,SEQ.Script.Core
+                        Id: c6ff4ee6-6f25-463f-a166-fb9dacf9107c
+                        IdOverride: player
+                        Species: player
+                        Quantity: 1
+                        Vars:
+                            59b36a11877125287a40f30d322df455~myammo: 150
+        -   Entity:
+                Id: 5e01f761-3738-4ebd-8753-3bfef5004b35
+                SeqId:
+                    Hash: -1587766871
+                    Id: f828a0f8-c3fa-4a15-9895-641e2eff885e
+                Name: gun
+                Components:
+                    1b6e8aac9aec18b70943fcab5e0f6a7a: !TransformComponent
+                        Id: d61439af-5866-49fb-94fc-3e28ecac12e9
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            13b4e2b1cef29f08de93dcb145ecfa73: ref!! 8c5551c6-7d36-41eb-854c-31a3df952ae6
+                    fb6764f9355d4e53c48705ceeb1ee579: !RigidbodyComponent
+                        Id: f2ddbe42-46cb-464b-a3e7-c9d2ea2fd8c5
+                        SurfaceType: Metal
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter1, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10, InteractiveFilter, AIFilter, ProjectileFilter
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        AllowPush: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            42a6c0e511d16b5d1bef4b0f80f3b99d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.15
+                                Orientation: UpZ
+                                LocalOffset: {X: 0.5, Y: 0.0, Z: -0.1}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            9177783eeff778c1aef2d377d8bac183: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.18
+                                Orientation: UpZ
+                                LocalOffset: {X: -0.2, Y: 0.0, Z: -1.5}
+                                LocalRotation: {X: 0.0, Y: 0.1305262, Z: 0.0, W: 0.9914449}
+                            cd6b9a082f0999ee94de205ca0434122: !CapsuleColliderShapeDesc
+                                Length: 1.3
+                                Radius: 0.1
+                                Orientation: UpZ
+                                LocalOffset: {X: -0.8, Y: 0.0, Z: 0.15}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            09caa49c5a95344df3e00949da661a3c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.6, Y: 0.1, Z: 1.3}
+                                LocalOffset: {X: -0.5, Y: 0.0, Z: 0.2}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            a36a684fc1620176f28cec5776b619fe: !CapsuleColliderShapeDesc
+                                Length: 5.7
+                                Radius: 0.15
+                                Orientation: UpZ
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.7}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: dc5e40cf-4726-4687-b662-08b48850673d:Actors/Gun/gunspawner
+                BasePartId: bf1b14e6-d243-4776-a559-f01aee26f773
+                InstanceId: 5a1b1f6d-d5b3-4125-9a26-2e8adb2fed97
+        -   Entity:
+                Id: 6b2b4da1-6dc5-49d9-8bd8-16d3e194391a
+                SeqId:
+                    Hash: 394657868
+                    Id: 61731501-50d6-4d8a-ba69-f95aa12f533f
+                Name: Sequencer
+                Components:
+                    65bff77f559b11b04862ecac1ddc6917: !TransformComponent
+                        Id: a4cf309d-9bfb-4b81-a133-cf624e801079
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e9fe549a8781e131e5d670235b44d194: !SEQ.Script.Core.Sequencer,SEQ.Script.Core
+                        Id: e3f8a857-a735-487d-bd08-9a2594efd46d
+                        Priority: -1000
+                        ContinueReceived: false
+                        Sb:
+                            Capacity: 16
+                            Length: 0
+                    ccfbba1d462f93678bd33e267320cb4f: !SEQ.Sim.StartupScriptRunner,SEQ.Sim
+                        Id: e9bd7045-4d5f-4880-ba69-885ab0c2bdf5
+                        Priority: 99999
+        -   Folder: null
+            Entity:
+                Id: 7f8fd9b8-d1e7-4644-83d3-2efac06fa9fd
+                SeqId:
+                    Hash: 1848513506
+                    Id: 53673545-fe5f-4663-8655-8364633a0c54
+                Name: Directional light
+                Components:
+                    9b2b6ce83ee08c4db6f4b48e349de97f: !TransformComponent
+                        Id: ae5ec456-6674-45f8-888a-87390e536a87
+                        Position: {X: -1.917061E-06, Y: 1.3337278E-06, Z: -1.1389012E-05}
+                        Rotation: {X: 0.0, Y: -4.0838677E-07, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.9999999, Y: 0.9999999, Z: 0.99999994}
+                        Children: {}
+                    58de7bbb8c1fe447b91985df9d2b457f: !LightComponent
+                        Id: 59c5779a-bb1d-466d-bed6-70483a9f8a98
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow: !LightDirectionalShadowMap
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: XLarge
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        RenderGroup: Group10
+                    2d88a5124e5ae82c325c03b1b87fec1e: !LightShaftComponent
+                        Id: 0c959cb4-0c49-4a8b-b17b-dee77931ebc5
+                        Enabled: false
+                        DensityFactor: 0.002
+                        SampleCount: 16
+                        SeparateBoundingVolumes: true
+                    7606306b277c7efd1a121c45fc0aba1e: !SEQ.Sim.Clock,SEQ.Sim
+                        Id: 089a4663-20f2-44e2-b8d9-a4e60c77a7ac
+                        Priority: -10000
+                        TimescaleCvar: timescale
+                        MinuteCvar: minute
+                        HourCvar: hour
+                        DayCvar: day
+                        BulletTimeScale: 1.0
+                        WaitMinutes: 0.1
+                        TargetSunAngle: 0.0
+                        Sun: ref!! 59c5779a-bb1d-466d-bed6-70483a9f8a98
+                        AmbientDayLight: ref!! b45a48a9-0c0e-4073-a234-00e94f9fb2df
+                        AmbientDayIntensity: 1.0
+                        AmbientNightLight: ref!! 57566b6b-b9ef-4fea-b5ef-bfe348ed7c1c
+                        AmbientNightIntensity: 0.05
+                        Background: ref!! 73f96c70-616f-47e5-a97d-756c06dd8e1a
+                        DayIntensity: 1.0
+                        SunriseIntensity: 1.0
+                        NightIntensity: 0.0
+                        SunsetIntensity: 1.0
+                        Minutes: 0
+                        Hours: 0
+                        Days: 0
+                    9d99720c1087fb252673a7015fb744e8: !SEQ.Sim.Sun,SEQ.Sim
+                        Id: 4fe1eb74-4d07-4199-8402-0dc593ec0189
+                        SmoothTime: 2.0
+        -   Entity:
+                Id: 81a73be2-2f2b-4b5c-b342-b9d870dede7b
+                SeqId:
+                    Hash: 1373035979
+                    Id: 4f640dab-7f86-46d0-a22a-045c856d182e
+                Name: Smash
+                Components:
+                    3c47df2c72053a804f971a12d921073e: !TransformComponent
+                        Id: 3aa19d6d-f94e-4deb-a02b-680db9af9c82
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fbda8b3d6d090f9aba8890fa31b3a1ee: !NavigationComponent
+                        Id: bd294c0f-77bd-4d1e-85bd-024b6907a0ae
+                        NavigationMesh: null
+                        GroupId: 578af407-f05f-4720-93d4-f8a5075ea60e
+        -   Entity:
+                Id: 8441c868-e0f2-47bb-ab87-2644aa8e498b
+                SeqId:
+                    Hash: -1344924710
+                    Id: 53106613-365f-4492-8a1b-02be2e3a39b4
+                Name: sceneent
+                Components:
+                    7ec53cb14c33fca467193ccf1d71e227: !TransformComponent
+                        Id: b7278614-c5cd-489a-8a35-c3f1ef281d4e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    89094f508797764aa67135540267d3ef: !SEQ.Script.Sceneloader,SEQ.Script
+                        Id: 81d7c41c-200d-48d4-b395-3b148db25249
+                        Priority: -10
+                        SeqId: root
+                        List: {}
+        -   Entity:
+                Id: 976223a0-5a6d-400b-b872-fab4a93f68bb
+                SeqId:
+                    Hash: -850645003
+                    Id: 5f9464e4-b6c6-4007-b4a9-bc0c35167436
+                Name: SurfaceEffects
+                Components:
+                    47cc46c0f49887b7c4ab02f59d46ed4d: !TransformComponent
+                        Id: 25b6635e-3841-4b8d-883d-6e7950ea1118
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0397d51dd9fb593059079bcfb15907e1: !SEQ.Sim.SurfaceEffectRegistry,SEQ.Sim
+                        Id: 5cafbf3a-7d69-4313-9aa1-5e021a822af0
+                        Footsteps: {}
+                        BulletImpacts: {}
+                        BulletHole: null
+                        Tracer: null
+        -   Folder: AUDIO
+            Entity:
+                Id: a5228727-0b1b-4595-8f5a-fdbcdb7f34cb
+                SeqId:
+                    Hash: 1592816652
+                    Id: 431e7e0a-cdcd-4dcc-b18c-7d81e66d13d2
+                Name: HiVerb
+                Components:
+                    74df447c52d3ba3c3171518541a356b0: !TransformComponent
+                        Id: fa5a5ebd-3aab-4db9-a3b9-6d61f3af33f0
+                        Position: {X: 16.489052, Y: -0.52877593, Z: -93.855515}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.1348594, Y: 2.4694397, Z: 41.66152}
+                        Children: {}
+                    c733a43d8e1253b5dc7daa141c5b5d91: !ModelComponent
+                        Id: 4edef6a9-98a9-472e-b1c2-75277f8cc6bf
+                        Enabled: false
+                        Model: 1698c01b-6454-4847-8433-5d2f8c138da9:Models/Box1x1x1
+                        IsShadowCaster: false
+                        Materials:
+                            0dd551b7d31afafa1ac72b7289214cd1~0: f015788e-7cf5-4fc9-852c-2c698b524edc:Materials/GridMT
+                    33b890112e68e8d2da2bef97cf2ace2c: !SEQ.Script.ReverbZone,SEQ.Script
+                        Id: b81175fa-a496-4ebc-8e91-ad69848d40fb
+                        UpdateDelay: 100
+                        ZonePriority: 50
+                        Wet: 0.3
+                        Dry: 0.7
+        -   Folder: null
+            Entity:
+                Id: aaaa5bd7-4928-43f3-bbe0-6dd7579c0818
+                SeqId:
+                    Hash: 1885879372
+                    Id: fdfd03bd-3ce1-4649-bc82-bf50e2ec1c98
+                Name: FPCamera
+                Components:
+                    e7c6cdb5a014582b5d24b28fa2c88cc2: !TransformComponent
+                        Id: ed3946c3-60a7-4da9-a071-019f8c5a62e4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ff60a6e9edcc756480e5a998bc218e91: !CameraComponent
+                        Id: 04d5e1c9-79ee-49ab-a9e1-8733d74087a5
+                        Enabled: false
+                        Name: null
+                        Projection: Perspective
+                        VerticalFieldOfView: 40.0
+                        Slot: f1ef5817-0725-4b1a-abc9-845d101ec0e6
+        -   Folder: GUI
+            Entity:
+                Id: b69c407b-5a9b-4bca-9268-fdd037229a47
+                SeqId:
+                    Hash: 912515347
+                    Id: 584b57ab-8074-4fd2-bdcb-0c2de4a4b837
+                Name: PORTRAITS
+                Components:
+                    0a96f591e7d084b7e237cf0413dfcfb0: !TransformComponent
+                        Id: 56713f30-6dd9-4e99-b0e7-faca0268059b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    85f28e3a104fdb2c3b2a0367af05df34: !SEQ.Sim.Portraits,SEQ.Sim
+                        Id: 7f51d9ac-1385-4bab-a1d6-f679a57e7733
+                        Images:
+                            2a1fe98d003e3d4adcd185a7d7241612:
+                                Name: test
+                                Video: null
+                                Tex: 7e2761d1-ef86-420a-b7a7-a0ed1c16f9bb:StrideClearCoatMetalFlakesNM
+        -   Entity:
+                Id: bd6c1364-7df5-4899-b757-c77b1e4ef123
+                SeqId:
+                    Hash: -671833672
+                    Id: bf787584-7c56-46b8-bcf9-ce23b6adc4a1
+                Name: Default
+                Components:
+                    eaa66322f4a5fb190bceaf84510c2942: !TransformComponent
+                        Id: 636c96f7-9dea-42d2-901e-d9e56d0ef8a9
+                        Position: {X: 74.85598, Y: 48.241207, Z: -25.466696}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    bb9c3566218de59f76c24fbd42e04925: !Stride.Navigation.NavigationBoundingBoxComponent,Stride.Navigation
+                        Id: 51416286-db97-4c00-afed-0ae75e51d41e
+                        Size: {X: 256.0, Y: 64.0, Z: 256.0}
+                    fcc53ee284fd1cd1ed36ad2694922ec2: !NavigationComponent
+                        Id: 7e841edc-2942-4e67-9a65-3dc3417efc33
+                        NavigationMesh: null
+                        GroupId: 3030027d-f978-4627-accf-ba81d1639abc
+        -   Entity:
+                Id: c0d738f4-f72b-4942-a82b-e1eb52550f25
+                SeqId:
+                    Hash: 1423522883
+                    Id: d9c89d1d-030d-4480-b5ae-46c30dc96b49
+                Name: BaseCameraPosition
+                Components:
+                    106c4ee983a956e8a6267556c8b496fe: !TransformComponent
+                        Id: 9ba7aa21-62fb-4636-9ade-7480c2b8f61a
+                        Position: {X: 0.0, Y: 9.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b43c1e29f6829442e4c115a1be4d65de: !SEQ.Script.RegisteredCamera,SEQ.Script
+                        Id: cdaa98c4-a173-425e-8d19-f3048940d03d
+                        Priority: -11
+                        SeqRef: base
+                        CameraType: Base
+        -   Entity:
+                Id: c1273ab0-c4ef-4cef-891b-63820d102668
+                SeqId:
+                    Hash: -1442182414
+                    Id: 033bf865-c44e-4ba6-ac0a-4775137368c8
+                Name: PlayerCamera
+                Components:
+                    4ccf79f971af85960faf73fcd2e4191e: !TransformComponent
+                        Id: 53508eae-2376-4d4e-9ef7-2caae7eef873
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            c823f326fbeb7e3cb6591e2535cf15f2: ref!! ed3946c3-60a7-4da9-a071-019f8c5a62e4
+                    aa6ca0494cae424211294dcca04faa1b: !CameraComponent
+                        Id: 0f9f1dcf-06bb-425f-b895-eff7bf27c4cd
+                        Name: null
+                        Projection: Perspective
+                        Slot: f1ef5817-0725-4b1a-abc9-845d101ec0e6
+                    412acb201566b5e2fdd2b9ccaec5dd7d: !SEQ.Sim.PlayerCamera,SEQ.Sim
+                        Id: 63c01002-9e9f-45a0-94f7-604f65987ed8
+                        Priority: -1000
+                        FP: ref!! 04d5e1c9-79ee-49ab-a9e1-8733d74087a5
+                        RecoilCurve:
+                            Curve: !ComputeAnimationCurveVector2
+                                KeyFrames:
+                                    e5c4f6fd0d842f9e139d75a5d424a924:
+                                        Key: 0.0010223953
+                                        Value: {X: -0.00062030274, Y: 0.0}
+                                        TangentType: Linear
+                                    beb90db3744b237bfab8ff0bb4b52a3d:
+                                        Key: 0.075718835
+                                        Value: {X: 0.013480334, Y: 0.04177112}
+                                        TangentType: Linear
+                                    ed845b03369e14f2735595b2b9464f2e:
+                                        Key: 0.19885553
+                                        Value: {X: 0.05604261, Y: 0.089631766}
+                                        TangentType: Linear
+                                    8809a6bf3cfcd7c23fce746d0457a973:
+                                        Key: 0.29090333
+                                        Value: {X: 0.07106459, Y: 0.13896893}
+                                        TangentType: Linear
+                                    32449a44e0372a6e9c4d5ca6b3130228:
+                                        Key: 0.3978065
+                                        Value: {X: -0.0040453104, Y: 0.17718486}
+                                        TangentType: Linear
+                                    14523ebd74100e201662005c108c20f1:
+                                        Key: 0.47665554
+                                        Value: {X: -0.04160026, Y: 0.22775887}
+                                        TangentType: Linear
+                                    da18b7beb8e4e82f58b021165f30ca6a:
+                                        Key: 0.5600845
+                                        Value: {X: -0.09918452, Y: 0.26894408}
+                                        TangentType: Linear
+                                    c76b190f03040f12c59d381bb9cb00b2:
+                                        Key: 0.6659429
+                                        Value: {X: -0.079155214, Y: 0.33103493}
+                                        TangentType: Linear
+                                    1930cad535d0e015ca641a775624b0a3:
+                                        Key: 0.7507617
+                                        Value: {X: -0.016563628, Y: 0.36621144}
+                                        TangentType: Linear
+                                    1f8fdb4f31979f34704b8c9d8b28c7b7:
+                                        Key: 0.8294434
+                                        Value: {X: 0.013480334, Y: 0.45740548}
+                                        TangentType: Linear
+                                    e6e7cac41c4c51acf84280db1700107a:
+                                        Key: 0.93872046
+                                        Value: {X: 0.00045345802, Y: 0.5608358}
+                                        TangentType: Linear
+                                    d0033c881457fa7df73dd063f2c54a65:
+                                        Key: 0.99506736
+                                        Value: {X: -0.022079512, Y: 0.6424591}
+                                        TangentType: Linear
+                                    2bf67264d94d8dbea2a1e9b86d6e301c:
+                                        Key: 1.0407399
+                                        Value: {X: -0.014568522, Y: 0.67062515}
+                                        TangentType: Linear
+                                    05084de118706b4a0639e8b3c75348ed:
+                                        Key: 1.1718136
+                                        Value: {X: -0.069649115, Y: 0.7383023}
+                                        TangentType: Linear
+                                    f171401d3cc1c3e5bd62cda28e68d17f:
+                                        Key: 1.2832679
+                                        Value: {X: -0.07453909, Y: 0.7625925}
+                                        TangentType: Linear
+                                    09abbf19bab792a1fce946a6635be209:
+                                        Key: 1.4065993
+                                        Value: {X: -0.0720941, Y: 0.8281181}
+                                        TangentType: Linear
+                                    c4bdfc4739f8e6f9ddd6e5a63297e2d4:
+                                        Key: 1.5124264
+                                        Value: {X: -0.023194421, Y: 0.8624352}
+                                        TangentType: Linear
+                                    07da1c206ca6114bacab4afc7e15c72e:
+                                        Key: 1.6387763
+                                        Value: {X: 0.033040207, Y: 0.9130079}
+                                        TangentType: Linear
+                                    05e9e22f47ee113db6734d4dcb27fe81:
+                                        Key: 1.7325958
+                                        Value: {X: 0.12961707, Y: 0.9161374}
+                                        TangentType: Linear
+                                    e07c436a79719da15c2e6d1f997a3c68:
+                                        Key: 1.8577695
+                                        Value: {X: 0.19712009, Y: 0.9392181}
+                                        TangentType: Linear
+                                    8451cf8b39563da5fff825ee584e23a4:
+                                        Key: 1.9545742
+                                        Value: {X: 0.18660945, Y: 0.9130079}
+                                        TangentType: Linear
+                                    5446709fa96039e2e02b4d6ee4f2f577:
+                                        Key: 1.9960299
+                                        Value: {X: 0.16017936, Y: 0.93018216}
+                                        TangentType: Linear
+                                    4c6f92b969ecd3a2d310f7641b91a4b3:
+                                        Key: 2.0723166
+                                        Value: {X: 0.10319161, Y: 0.9599516}
+                                        TangentType: Linear
+                                    3480531a7e49493724ea70b0d14e2b34:
+                                        Key: 2.1401787
+                                        Value: {X: 0.08154475, Y: 0.96104735}
+                                        TangentType: Linear
+                                    ddd870ce6eff012d0dc1c3ac909be864:
+                                        Key: 2.1987333
+                                        Value: {X: 0.12275609, Y: 0.9517364}
+                                        TangentType: Linear
+                                    2d18c247f84fe1a3c223c84f233ecef7:
+                                        Key: 2.278339
+                                        Value: {X: 0.19281256, Y: 0.9797351}
+                                        TangentType: Linear
+                                    a1c3068295188789dd308d6d65e394f3:
+                                        Key: 2.2828336
+                                        Value: {X: 0.18927312, Y: 0.9824334}
+                                        TangentType: Linear
+                                    a4d0367e4dafb362b6704a3fdbac1cf8:
+                                        Key: 2.3340058
+                                        Value: {X: 0.16017936, Y: 1.0131544}
+                                        TangentType: Linear
+                                    a16ba14263401eb221a7192f4f2bf58b:
+                                        Key: 2.4273832
+                                        Value: {X: 0.2151915, Y: 1.006174}
+                                        TangentType: Linear
+                                    2f00161d01b60349b79c60af62f38b3b:
+                                        Key: 2.5116322
+                                        Value: {X: 0.22008146, Y: 0.9621642}
+                                        TangentType: Linear
+                                    e7831dc9980412aac3d0221047e2dd9b:
+                                        Key: 2.6415815
+                                        Value: {X: 0.1100572, Y: 0.9669371}
+                                        TangentType: Linear
+                                    5be4b55ce3f874cdab1d3d6aadb74d95:
+                                        Key: 2.7467263
+                                        Value: {X: -0.0427543, Y: 0.94921106}
+                                        TangentType: Linear
+                                    20f538c48d1ade725f5ec48bd0bca4fa:
+                                        Key: 2.902332
+                                        Value: {X: -0.0427543, Y: 0.9950545}
+                                        TangentType: Linear
+                                    594f16c66162edc2f07ce6035d7f5723:
+                                        Key: 3.0077882
+                                        Value: {X: -0.030529372, Y: 1.009052}
+                                        TangentType: Linear
+                                    1bb6d9cc2de1a151c30e999e2ec689c2:
+                                        Key: 3.1913137
+                                        Value: {X: -0.01830446, Y: 0.97213286}
+                                        TangentType: Linear
+                                    1ce147703643092d1e214e62a12ead7d:
+                                        Key: 3.3658142
+                                        Value: {X: 0.12228211, Y: 0.97213286}
+                                        TangentType: Linear
+                    45f6a1eb68adbf1290d531648ac78216: !AudioListenerComponent
+                        Id: 6f59b2c8-d23d-46e9-8c15-da3d1125ce25
+                    c0dac92ae307b7b5918edde32ea68dda: !AudioEmitterComponent
+                        Id: 71bc9348-6855-47fb-b067-50e9181c8afa
+                        Sounds: {}
+                        UseHRTF: false
+                        DirectionalFactor: 0.0
+                        Environment: Small
+                    3dbb51325745870260d8fa8ede7222dd: !SEQ.Sim.UIAudio,SEQ.Sim
+                        Id: 542b6e65-5617-408d-9839-1d6becf0f656
+                        Priority: -1000
+                        AudioEmitterComponent: ref!! 71bc9348-6855-47fb-b067-50e9181c8afa
+                        Clips: {}
+                    44173fba94134888ec0ef67544387b33: !SEQ.Sim.InteractionProbe,SEQ.Sim
+                        Id: 7fa89d99-3641-4077-b3a1-8d05bbc3e827
+                        Priority: 666
+                        RaycastDistance: 14.0
+                        DefaultFraction: 0.7
+                        ItemFraction: 0.7
+                        SmallFraction: 0.6
+                        BigFraction: 1.0
+                        isActivateOverrideActive: false
+        -   Folder: GUI
+            Entity:
+                Id: c654fc2b-9314-4883-8a82-d32267c50248
+                SeqId:
+                    Hash: 217437610
+                    Id: 0ccf1a14-a8b0-499b-a5fd-27889fb89c66
+                Name: DEATH
+                Components:
+                    ff40e052dc9f516bbc8f0c28e5c4ee66: !TransformComponent
+                        Id: 9ad37e5d-0a77-440b-88db-7c4ee5a7b37d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b0091fff607c7411a0c2dd95bcc26229: !UIComponent
+                        Id: 9699159b-f43b-4755-b568-7c7686ef4684
+                        Enabled: false
+                        Page: f3f96527-a17f-43e9-a02b-5dc7d280334e:UI/Death
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                        RenderGroup: UI
+                    b7e46de00a0a2c5a59e2ed47520b7a6d: !SEQ.Sim.DeathScreen,SEQ.Sim
+                        Id: 557661f7-ef50-4644-8daf-c279b475eacc
+                        UI: ref!! 9699159b-f43b-4755-b568-7c7686ef4684
+                        IsSmall: false
+                        DeathText:
+                            Ref: deathtext
+                            TextType: TextBlock
+                            Prefix: 
+                            Locstring: null
+                            Suffix: 
+                            PrefixSuffixOnEmpty: false
+                            UseShadow: false
+                            ShadowColor: {R: 0, G: 0, B: 0, A: 255}
+                            UseConsole: false
+                            ConsoleTweener:
+                                Scramble: false
+                                UseFlash: true
+                                Speed: 15.0
+                                FlashOnComplete: false
+                                FlashInterval: 0.5
+                                placeChar: "█"
+                                Bound: null
+                                TweenOnClear: false
+                                BackspaceSpeedMultiplier: 1.0
+                                BeepSFX: None
+                                AtEnd: false
+                                ScrambleFromTarget: false
+        -   Entity:
+                Id: c66103fa-1b84-42d7-bb10-5ec4796fbd41
+                SeqId:
+                    Hash: 538038003
+                    Id: 3e400568-9aa5-45a7-af31-80aac0e5d994
+                Name: FPWeaponSpring
+                Components:
+                    a2153c3cc907eba68d74dd447af3002b: !TransformComponent
+                        Id: 9b645613-4966-41f8-8112-4dae1c82cd96
+                        Position: {X: -4.0, Y: 5.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    aa88c4db4ecd4b79775d3e8adb4809ce: !SEQ.Sim.FPWeaponSpring,SEQ.Sim
+                        Id: 14778763-7b99-4c3e-9da1-ab231c5d3ee3
+                        Priority: 1000
+                        SmoothTime: 0.3
+                        MaxSmoothedAngle: 2.5
+                        LandingImpulse: -2.5
+                        PositionSmoothTime: 0.2
+                        SwayTimeScale: 4.0
+                        SwayMagnitude: 0.05
+                        UpSwayTimeFactor: 2.0
+                        UpSwayMagnitude: 0.05
+                        MinimumSwaySpeed: 2.5
+                        MinimumTurnAngle: 1.0
+                        SwayAndSlowdownAmount: 0.8
+                        AmountSmoothTime: 0.2
+        -   Entity:
+                Id: d6ba9780-0efd-425a-aabf-2f52bfdf65bc
+                SeqId:
+                    Hash: 66302355
+                    Id: ed29936d-bf6a-4b1a-aa59-93c72872b8f6
+                Name: gunspawner
+                Components:
+                    8ba73c73b9f3b636404a5e4743623276: !TransformComponent
+                        Id: a277a50d-54ca-4d4d-902b-297345ff4252
+                        Position: {X: -4.683263, Y: 1.8113344, Z: -3.909301}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            eed46704cab284b3b2536a14427be2ae: ref!! 64f88ff6-6455-4047-ae1e-ab6ed7d7b0ef
+        -   Folder: Lights
+            Entity:
+                Id: e197eab9-2d64-427e-a448-9af6b4a81743
+                SeqId:
+                    Hash: -1002797072
+                    Id: 5b04b482-7f90-4cd2-b87b-4a6ef13b7ba1
+                Name: Axis
+                Components:
+                    b224bc2b7b0a4e966f56a6f5877f994f: !TransformComponent
+                        Id: 4d0ba568-3d3e-41ab-9b47-518fc76e46aa
+                        Position: {X: -7.204221, Y: 58.746002, Z: -4.8435187}
+                        Rotation: {X: -0.36883882, Y: -0.47436902, Z: -0.57410794, W: 0.55617636}
+                        Scale: {X: 0.9999999, Y: 0.9999999, Z: 0.9999999}
+                        Children:
+                            4bc9677ce148f7162cc97c5dc7db699b: ref!! ae5ec456-6674-45f8-888a-87390e536a87
+        -   Entity:
+                Id: e71c49fc-16e7-4088-8751-9263b4a06c2e
+                SeqId:
+                    Hash: -1512559190
+                    Id: 488ad4d7-6d07-47a4-804c-a95cda3c139f
+                Name: Actors
+                Components:
+                    f40e3e3f7b065edd7258d2e4ef431bfc: !TransformComponent
+                        Id: 23b739b3-e745-47ea-872b-f8714572c282
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e2fb6d928d874123dbac8d921cfb2185: !SEQ.Sim.SimSpeciesRegistry,SEQ.Sim
+                        Id: 654d2c70-4fa7-4942-b3a2-62699d0f8041
+                        Priority: -1000
+                        SpeciesList:
+                            7f8b290841d4dec1644869f602f0d76e:
+                                UsableType: Default
+                                FpPrefab: null
+                                Icon: null
+                                Stackable: false
+                                AmmoType: null
+                                ClipSize: 0
+                                IsRaycast: false
+                                SpreadCurve:
+                                    Curve: !ComputeAnimationCurveVector2
+                                        KeyFrames: {}
+                                Damage: 0
+                                Knockback: 0.0
+                                FireDecibles: 0.0
+                                IsFists: false
+                                MaxRange: 999.0
+                                AIRangeMax: 50.0
+                                AIRangeMin: 0.0
+                                Species: player
+                                Prefab: 40340ec2-29d8-4770-8436-d55962769f14:Actors/Player/player
+                            b24d599452fed50d5b4f7f86e3563650:
+                                UsableType: Weapon
+                                FpPrefab: 2d7345f4-2004-4dab-ad96-d3f02a126ac7:Actors/Gun/gunfp
+                                Icon: null
+                                Stackable: false
+                                AmmoType: myammo
+                                ClipSize: 20
+                                IsRaycast: true
+                                SpreadCurve:
+                                    Curve: !ComputeAnimationCurveVector2
+                                        KeyFrames:
+                                            9f28d9afbc68fbf935dbe9a31a79fc3f:
+                                                Key: 9.9460885E-05
+                                                Value: {X: 3.965504E-06, Y: -0.01915532}
+                                                TangentType: Linear
+                                            a23d2cf4dfd3eeb2bf62d39454338146:
+                                                Key: 0.088447504
+                                                Value: {X: 0.03535765, Y: 0.18106031}
+                                                TangentType: Linear
+                                            39962174759f5f052a4857d8e8cbcf2b:
+                                                Key: 0.20804918
+                                                Value: {X: -0.28593445, Y: 0.16717502}
+                                                TangentType: Linear
+                                            77cf295f61d4fd276460eef9b88dcb2d:
+                                                Key: 0.31955633
+                                                Value: {X: -0.12672588, Y: 0.18094517}
+                                                TangentType: Linear
+                                            99a1c31f6315012d67547adfdbe25784:
+                                                Key: 0.42514783
+                                                Value: {X: 0.42348757, Y: 0.033646304}
+                                                TangentType: Linear
+                                            311eed0ed3991821a5732fd3d856bc70:
+                                                Key: 0.45752314
+                                                Value: {X: 0.56697875, Y: -0.21911944}
+                                                TangentType: Linear
+                                            a0804e31749b552d23ef18ef5d027b29:
+                                                Key: 0.50423557
+                                                Value: {X: 0.74131584, Y: -0.19084886}
+                                                TangentType: Linear
+                                            57688e978cdf33129c11f501ec80e6c8:
+                                                Key: 0.58218074
+                                                Value: {X: 0.34509018, Y: -0.11057513}
+                                                TangentType: Linear
+                                            b86386d9acece71c9abe709824e2363d:
+                                                Key: 0.7008344
+                                                Value: {X: 0.5064564, Y: -0.5310341}
+                                                TangentType: Linear
+                                            67659fc2487f24dd1bd851f8ad248d3d:
+                                                Key: 0.7574374
+                                                Value: {X: 0.39248657, Y: 0.1401968}
+                                                TangentType: Linear
+                                            8ab23ad34c8998069c1ef390eee14483:
+                                                Key: 0.82033944
+                                                Value: {X: -0.29631567, Y: 0.24353689}
+                                                TangentType: Linear
+                                            cd62d1c985d69730cc5d73d489d2fea2:
+                                                Key: 0.84879297
+                                                Value: {X: 0.28513342, Y: 0.7599173}
+                                                TangentType: Linear
+                                            055eebd9275c11d11a8d38165e16f988:
+                                                Key: 0.95976204
+                                                Value: {X: 0.8957122, Y: 0.59843105}
+                                                TangentType: Linear
+                                            fe616e7b5076822abefc6c00d19d906f:
+                                                Key: 0.9928438
+                                                Value: {X: 0.9947923, Y: 0.8939643}
+                                                TangentType: Linear
+                                Damage: 20
+                                Knockback: 12.0
+                                FireDecibles: 150.0
+                                IsFists: false
+                                MaxRange: 999.0
+                                AIRangeMax: 50.0
+                                AIRangeMin: 3.0
+                                Species: gun
+                                Prefab: ebf84b5a-0c6b-4517-a43c-b58d50e5d3cf:Actors/Gun/gun
+                    7451c5a852466717761b549334d265dd: !SEQ.Script.Core.ActorUpdater,SEQ.Script.Core
+                        Id: 5e72b3c2-7148-4d63-bee1-16c79794ed81
+                        Priority: 1
+        -   Folder: GUI
+            Entity:
+                Id: f77b8efe-b6dc-4e0c-86b8-2f556bee4507
+                SeqId:
+                    Hash: -1182753678
+                    Id: 756ea0ab-e8ab-4f35-90f8-b1da90e89f73
+                Name: HUD
+                Components:
+                    671fb49147d678612aec3f48e0864de2: !TransformComponent
+                        Id: 7b0a381d-9e8a-464f-8977-1a1a432c33d4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    337ce3638a57cfc6d1467757e7a3a694: !UIComponent
+                        Id: 71d36ee4-54bf-4dc1-b3b1-c7f6b1ee4cce
+                        Page: b13777c3-a901-499c-a028-57c13a8e8c4b:UI/HUD
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        RenderGroup: UI
+                    8966c99dff7d4ec47e4137b018dea649: !SEQ.Sim.PlayerWeaponManager,SEQ.Sim
+                        Id: ca039272-a261-42a4-9e9e-bc49dc399322
+                        Priority: 1001
+                        Inventory: ref!! c7d13247-f543-40a2-a05b-be26e970020e
+                        SelectedSlot: null
+                    cdbb1eacb61bd13ae116475d03a2d5ed: !SEQ.Sim.InventoryDisplay,SEQ.Sim
+                        Id: c7d13247-f543-40a2-a05b-be26e970020e
+                        Priority: 1000
+                        BoundEntity: player
+                        SlotPrefab: slotprefab
+                        Prefab: null
+                        SlotCount: 10
+                        IsPlayerInventory: true
+                        Follower:
+                            ElementName: inventoryfollower
+                            SmoothTime: 0.2
+                        SelectCvar: equipped
+                    944b6767caefcfe4133b022448b77c52: !SEQ.Sim.HUD,SEQ.Sim
+                        Id: e7d52887-ec39-4d7c-8fec-1043e56718bf
+                        Priority: 255
+                        Templates:
+                            f43dc1e347cacd8f987d1f6873ab97fe:
+                                Name: radio
+                                Fields:
+                                    b9a54451514747b8c8416436852f729b:
+                                        Ref: name
+                                        TextType: TextBlock
+                                        Prefix: 
+                                        Locstring: null
+                                        Suffix: 
+                                        PrefixSuffixOnEmpty: false
+                                        UseShadow: false
+                                        ShadowColor: {R: 0, G: 0, B: 0, A: 255}
+                                        UseConsole: true
+                                        ConsoleTweener:
+                                            Scramble: false
+                                            UseFlash: true
+                                            Speed: 15.0
+                                            FlashOnComplete: false
+                                            FlashInterval: 0.5
+                                            placeChar: "█"
+                                            Bound: null
+                                            TweenOnClear: false
+                                            BackspaceSpeedMultiplier: 1.0
+                                            BeepSFX: None
+                                            AtEnd: false
+                                            ScrambleFromTarget: false
+                                    3c3df698851560b2a40892e723083034:
+                                        Ref: body
+                                        TextType: TextBlock
+                                        Prefix: 
+                                        Locstring: null
+                                        Suffix: 
+                                        PrefixSuffixOnEmpty: false
+                                        UseShadow: false
+                                        ShadowColor: {R: 0, G: 0, B: 0, A: 255}
+                                        UseConsole: true
+                                        ConsoleTweener:
+                                            Scramble: false
+                                            UseFlash: true
+                                            Speed: 15.0
+                                            FlashOnComplete: false
+                                            FlashInterval: 0.5
+                                            placeChar: "█"
+                                            Bound: null
+                                            TweenOnClear: false
+                                            BackspaceSpeedMultiplier: 1.0
+                                            BeepSFX: None
+                                            AtEnd: false
+                                            ScrambleFromTarget: false
+                                ContinueButtons:
+                                    47552a27c9578d1549af1137eef9f140: bg
+                                Images:
+                                    2a33e516e1c12dc72d82ffe3278a3f88:
+                                        Name: portrait
+                                        El: null
+                                        SpriteFromTex:
+                                            Texture: null
+                                            Center: {X: 0.0, Y: 0.0}
+                        IsSmall: false
+                        FocusText:
+                            Ref: focustext
+                            TextType: TextBlock
+                            Prefix: 
+                            Locstring: null
+                            Suffix: 
+                            PrefixSuffixOnEmpty: false
+                            UseShadow: true
+                            ShadowColor: {R: 0, G: 0, B: 0, A: 255}
+                            UseConsole: true
+                            ConsoleTweener:
+                                Scramble: true
+                                UseFlash: false
+                                Speed: 50.0
+                                FlashOnComplete: false
+                                FlashInterval: 0.5
+                                placeChar: "█"
+                                Bound: null
+                                TweenOnClear: false
+                                BackspaceSpeedMultiplier: 1.0
+                                BeepSFX: None
+                                AtEnd: false
+                                ScrambleFromTarget: true
+                        Clock:
+                            ClockText:
+                                Ref: clock
+                                TextType: TextBlock
+                                Prefix: 
+                                Locstring: null
+                                Suffix: 
+                                PrefixSuffixOnEmpty: false
+                                UseShadow: false
+                                ShadowColor: {R: 0, G: 0, B: 0, A: 255}
+                                UseConsole: false
+                                ConsoleTweener:
+                                    Scramble: false
+                                    UseFlash: true
+                                    Speed: 15.0
+                                    FlashOnComplete: false
+                                    FlashInterval: 0.5
+                                    placeChar: "█"
+                                    Bound: null
+                                    TweenOnClear: false
+                                    BackspaceSpeedMultiplier: 1.0
+                                    BeepSFX: None
+                                    AtEnd: false
+                                    ScrambleFromTarget: false
+                        PlayerStats:
+                            HpText:
+                                Ref: hptext
+                                TextType: TextBlock
+                                Prefix: 
+                                Locstring: null
+                                Suffix: 
+                                PrefixSuffixOnEmpty: false
+                                UseShadow: true
+                                ShadowColor: {R: 0, G: 0, B: 0, A: 255}
+                                UseConsole: false
+                                ConsoleTweener:
+                                    Scramble: false
+                                    UseFlash: true
+                                    Speed: 15.0
+                                    FlashOnComplete: false
+                                    FlashInterval: 0.5
+                                    placeChar: "█"
+                                    Bound: null
+                                    TweenOnClear: false
+                                    BackspaceSpeedMultiplier: 1.0
+                                    BeepSFX: None
+                                    AtEnd: false
+                                    ScrambleFromTarget: false

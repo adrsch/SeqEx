@@ -1,0 +1,209 @@
+!PrefabAsset
+Id: 40340ec2-29d8-4770-8436-d55962769f14
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! e85feb3e-387f-4601-b7d0-ecb1cad8b5f2
+    Parts:
+        -   Entity:
+                Id: 67f956e5-e8da-4fda-9bd1-c02275885bb0
+                SeqId:
+                    Hash: -1835409550
+                    Id: 787e6cd1-4063-44cd-b72e-2f61f48cdcd1
+                Name: Camera
+                Components:
+                    e7530b9a6be27e47b405f3991f670c13: !TransformComponent
+                        Id: 74644b9a-b169-411a-b535-9f9e3e816e4c
+                        Position*: {X: 0.0, Y: 2.2, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    70b71e50112a8b95c218c5997055ac57: !SEQ.Sim.FpsCamera,SEQ.Sim
+                        Id: 2156b62f-b2cf-41fb-b260-cb42896015a2
+                        RotationSpeed: 0.02355
+                        InvertX: false
+                        InvertY: false
+                    7235cce65d37dcb4ac2d9813cec86054: !SEQ.Script.RegisteredCamera,SEQ.Script
+                        Id: fd50218c-f429-4a28-b419-28f2cf2b1713
+                        Priority: -10
+                        SeqRef: fps
+                        CameraType: Default
+                    abf6f2c145d51cad8db672f96eb21670: !SEQ.Sim.VisualEmitter,SEQ.Sim
+                        Id: 2094ce3b-7b15-4afa-bc2e-e82ff72e7a52
+                        _SensorTargetPriority: 2
+                        _Faction: null
+                        Perceptible: null
+                        NavTarget: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+        -   Entity:
+                Id: 86f4f78f-8c96-40cd-be72-f492b77d29f8
+                SeqId:
+                    Hash: -146074151
+                    Id: f469649a-8399-4f96-ba7e-5fee27678ecf
+                Name: PeekA
+                Components:
+                    9d3bad19e50d59a70ef78732b7a8a559: !TransformComponent
+                        Id: 99714eb2-672c-484f-b924-8381ac8bfce9
+                        Position: {X: 1.0742563, Y: 0.0, Z: -0.90163255}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b2bb83106a4733a519864af1af1523c3: !SEQ.Sim.VisualEmitter,SEQ.Sim
+                        Id: 5b707589-24a4-40c9-adcf-dd3b1e02c56b
+                        _SensorTargetPriority: 1
+                        _Faction: null
+                        Perceptible: null
+                        NavTarget: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+        -   Folder: null
+            Entity:
+                Id: 91d899bc-6a1e-41c7-8867-62b34e84b4c9
+                SeqId:
+                    Hash: 502610684
+                    Id: e69b5ae9-836f-4311-9be5-55e680f92f13
+                Name: PeekB
+                Components:
+                    9d3bad19e50d59a70ef78732b7a8a559: !TransformComponent
+                        Id: d9f3ed43-457d-4fd2-81cb-a3fc86c185a7
+                        Position: {X: -1.3369414, Y: 0.0, Z: -0.92922544}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    868ddb0fc66d95624eb660b5068e1721: !SEQ.Sim.VisualEmitter,SEQ.Sim
+                        Id: fb4f90f3-b1b5-4a96-a3e6-a70bc52c6331
+                        _SensorTargetPriority: 1
+                        _Faction: null
+                        Perceptible: null
+                        NavTarget: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+        -   Entity:
+                Id: a0fbd898-2e15-4570-8e60-71aa5fb9d929
+                SeqId:
+                    Hash: 1016293738
+                    Id: e85d1150-6844-4e7e-bfe7-97c73dd87730
+                Name: Feet
+                Components:
+                    1a09752a8060f45ef09db2d2f05168f3: !TransformComponent
+                        Id: bf5bc0ab-237c-4303-b888-7fda3d492908
+                        Position: {X: 0.0, Y: -2.4, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: e85feb3e-387f-4601-b7d0-ecb1cad8b5f2
+                SeqId:
+                    Hash: -1856610962
+                    Id: 05c845aa-5a81-4205-8bcb-bdbb6ea8dcfb
+                Name: player
+                Components:
+                    458ac2590f953f4fb47242e21b3e420f: !TransformComponent
+                        Id: 14cbf750-61f6-4e1c-8f8a-1fecacc49a47
+                        Position*: {X: 0.0, Y: 14.879, Z: 14.999999}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e7530b9a6be27e47b405f3991f670c13: ref!! 74644b9a-b169-411a-b535-9f9e3e816e4c
+                            8c408435ad14ffc99833fb2ad5bed268: ref!! 99714eb2-672c-484f-b924-8381ac8bfce9
+                            b0e3908864ff2155754efe4bf8307c91: ref!! d9f3ed43-457d-4fd2-81cb-a3fc86c185a7
+                            8bac2b2a7613892884f4aaff54c5ed35: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+                    b0d88ec0e36f983678a91c42b0fac009: !SEQ.Sim.PlayerInput,SEQ.Sim
+                        Id: 3e65f595-2019-48ad-ac85-28f9560329a8
+                        Priority: -1000
+                        DeadZone: 0.25
+                        Camera*: null
+                    c84b8f2de08d2dd2775d0647b28c44fe: !CharacterComponent
+                        Id: 9116b03e-9e1d-4374-81bd-7af7ec80bc56
+                        SurfaceType: Player
+                        CollisionGroup*: CharacterFilter
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, CharacterFilter, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10, InteractiveFilter, AIFilter, ProjectileFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        MaxSlope: {Radians: 0.7853982}
+                        ColliderShapes:
+                            f7bfd212600629087ca459c89668ac69: !CylinderColliderShapeDesc
+                                Height: 4.8
+                                Radius: 1.6
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Margin: 0.04
+                        AddedMargin: 0.02
+                    7f7d519f8b8c17fa99f63b977b53781e: !AudioEmitterComponent
+                        Id: 987ac6b1-8830-48a5-bfda-d53a55a8007c
+                        Sounds: {}
+                        UseHRTF: false
+                        DirectionalFactor: 0.2
+                        Environment: Small
+                    a83ad3f602a52e679215c6b2a1098d96: !SEQ.Sim.PlayerFootstepPlayer,SEQ.Sim
+                        Id: c1fb2aa8-1658-4cdd-8afb-7a0f288ed6ad
+                        Effects: {}
+                        AudioEmitter: ref!! 987ac6b1-8830-48a5-bfda-d53a55a8007c
+                        PlayerMovement: ref!! 3811d6c7-8bc2-400f-abff-0bf7835bb42a
+                    158224e55ac3c2dc0c94c31018fc2ec6: !SEQ.Sim.PlayerController,SEQ.Sim
+                        Id: 3811d6c7-8bc2-400f-abff-0bf7835bb42a
+                        Character: ref!! 9116b03e-9e1d-4374-81bd-7af7ec80bc56
+                        FPSCam: ref!! 2156b62f-b2cf-41fb-b260-cb42896015a2
+                        InputManager: ref!! 3e65f595-2019-48ad-ac85-28f9560329a8
+                        GroundedDistance: 0.25
+                        MaxGroundAngle: 45.0
+                        LandedEvent:
+                            Seq: null
+                            Clip: null
+                        UngroundedEvent:
+                            Seq: null
+                            Clip: null
+                        JumpedEvent:
+                            Seq: null
+                            Clip: null
+                        GroundCollider: !CharacterComponent ref!! 9116b03e-9e1d-4374-81bd-7af7ec80bc56
+                        GroundHitPoint: {X: 0.0, Y: 0.0, Z: 0.0}
+                        currentHeight: 4.8
+                        currentRadius: 1.6
+                        Feet: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+                        WaterLevel: 0.0
+                        Skin: 0.4
+                        Margin: 0.02
+                        BaseAddedMargin: 0.02
+                        StopMovingThreshold: 10.0
+                        StepHeight: 18.0
+                        BhopData:
+                            Angle: 0.0
+                            AddSpeed: 0.0
+                            AccelSpeed: 0.0
+                            LastVelocity: 0.0
+                            TargetSpeed: 0.0
+                            DidUpdate: false
+                            DidMove: false
+                            Speed: 0.0
+                    3121889fec463ba30cf8d1b8da1655ef: !SEQ.Script.Core.Actor,SEQ.Script.Core
+                        Id: 1c47dd73-73d5-48c1-9836-4eb5e4dee2b0
+                        Mass: 0.0
+                        MainPhysicsComponent: null
+                        DropTransform: null
+                    f27a40f2b2bc0163163e0f1a064b261f: !SEQ.Sim.PlayerAnimator,SEQ.Sim
+                        Id: 48ea9110-35f3-4cc8-9406-ec2a9a44b91a
+                        IsUnequipping: false
+                        Damageable: ref!! 72e8988d-f433-4065-85ca-9879adf5890d
+                        PlayerAudioEmitter: ref!! 987ac6b1-8830-48a5-bfda-d53a55a8007c
+                        Feet: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+                        AudioPerceptible: ref!! c52f0faa-762f-4261-87d0-ab6a28aa27bc
+                        Faction: null
+                    79aaa82fa495a28850a8b969e0b6cff7: !SEQ.Sim.VisualEmitter,SEQ.Sim
+                        Id: e1ffbd99-865a-49e3-aa0f-861ca479f117
+                        _SensorTargetPriority: 5
+                        _Faction: null
+                        Perceptible: null
+                        NavTarget: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+                    bbbd0a176f8f70ebb568f5dd615e6f45: !SEQ.Sim.SimDamageable,SEQ.Sim
+                        Id: 72e8988d-f433-4065-85ca-9879adf5890d
+                        Actor: ref!! 1c47dd73-73d5-48c1-9836-4eb5e4dee2b0
+                        IsDead: false
+                    cd73d4a554cd3b7052f1d5391d7a9a30: !SEQ.Sim.AudioEmitter,SEQ.Sim
+                        Id: c52f0faa-762f-4261-87d0-ab6a28aa27bc
+                        _Faction: null
+                        _SensorTargetPriority: 0
+                        Perceptible: null
+                        Decibels: 0.0
+                        NavTarget: ref!! bf5bc0ab-237c-4303-b888-7fda3d492908
+                    5996a0e2876407fcd2c420768f16cd81: ~(Deleted)
