@@ -1,0 +1,111 @@
+!PrefabAsset
+Id: dc5e40cf-4726-4687-b662-08b48850673d
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! c55f74c1-8d52-459a-b4af-9066700cfd56
+    Parts:
+        -   Entity:
+                Id: bf1b14e6-d243-4776-a559-f01aee26f773
+                SeqId:
+                    Hash: -1587766871
+                    Id: f828a0f8-c3fa-4a15-9895-641e2eff885e
+                Name: gun
+                Components:
+                    1b6e8aac9aec18b70943fcab5e0f6a7a: !TransformComponent
+                        Id: 7848f154-97c0-4b21-9a87-5a3de658a966
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            13b4e2b1cef29f08de93dcb145ecfa73: ref!! 24581e51-c2be-40ce-9075-543ddf4548b0
+                    fb6764f9355d4e53c48705ceeb1ee579: !RigidbodyComponent
+                        Id: 338d4a8b-cc38-49b9-9247-7dc2fcbaf9bd
+                        SurfaceType: Metal
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter1, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10, InteractiveFilter, AIFilter, ProjectileFilter
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        AllowPush: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            42a6c0e511d16b5d1bef4b0f80f3b99d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.15
+                                Orientation: UpZ
+                                LocalOffset: {X: 0.5, Y: 0.0, Z: -0.1}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            9177783eeff778c1aef2d377d8bac183: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.18
+                                Orientation: UpZ
+                                LocalOffset: {X: -0.2, Y: 0.0, Z: -1.5}
+                                LocalRotation: {X: 0.0, Y: 0.1305262, Z: 0.0, W: 0.9914449}
+                            cd6b9a082f0999ee94de205ca0434122: !CapsuleColliderShapeDesc
+                                Length: 1.3
+                                Radius: 0.1
+                                Orientation: UpZ
+                                LocalOffset: {X: -0.8, Y: 0.0, Z: 0.15}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            09caa49c5a95344df3e00949da661a3c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.6, Y: 0.1, Z: 1.3}
+                                LocalOffset: {X: -0.5, Y: 0.0, Z: 0.2}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            a36a684fc1620176f28cec5776b619fe: !CapsuleColliderShapeDesc
+                                Length: 5.7
+                                Radius: 0.15
+                                Orientation: UpZ
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.7}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: c55f74c1-8d52-459a-b4af-9066700cfd56
+                SeqId:
+                    Hash: -1678555232
+                    Id: 177deb3f-0f75-4a43-874d-78164751fe6d
+                Name: gunspawner
+                Components:
+                    1b6e8aac9aec18b70943fcab5e0f6a7a: !TransformComponent
+                        Id: c9c34df0-3f82-4095-9f13-a275dc027ca0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a8db9a972a192cd5a7dbfee6b163ccae: ref!! 7848f154-97c0-4b21-9a87-5a3de658a966
+                    c0b1972af0273345dd53df8f22d0cd8b: !SEQ.Script.Core.ActorSpawn,SEQ.Script.Core
+                        Id: 313a8e29-242c-43d8-aa98-cded187f4811
+                        IdOverride: null
+                        Species: gun
+                        Quantity: 1
+                        Vars:
+                            f2cdc6d1b3ca379ec28b1c5e494c5f2b~ammo: 20
+        -   Folder: null
+            Entity:
+                Id: f2ffaeca-ab69-4ad0-8656-a0db89dd15c0
+                SeqId:
+                    Hash: 325831161
+                    Id: e2d33995-8b49-40e4-9c3b-19ca4d0df333
+                Name: Gun
+                Components:
+                    a9c79a3bf064f945b8cb4a186967953c: !TransformComponent
+                        Id: 24581e51-c2be-40ce-9075-543ddf4548b0
+                        Position: {X: -0.7336037, Y: -4.3726203E-08, Z: -1.137801}
+                        Rotation: {X: -0.70710677, Y: -0.70710677, Z: -3.090862E-08, W: -3.090862E-08}
+                        Scale: {X: 4.7996597, Y: 4.7996597, Z: 4.7996597}
+                        Children: {}
+                    efd695c8917b8a42a02ea11321380575: !ModelComponent
+                        Id: 645e4c68-cc8a-43c3-bc03-77cbc028d0a8
+                        Model: 1cb790c5-3919-457f-9bc1-7c9ca6b23349:Models/MachinegunModel
+                        Materials: {}

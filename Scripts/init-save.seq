@@ -1,0 +1,102 @@
+print "Initializing save...";
+
+new comrade;
+new police;
+new hostage;
+new troublemaker;
+new negotiator;
+new bystander;
+new security;
+new military;
+new press;
+new creature;
+new special;
+
+set player:762nato 250;
+set player:9mm 250;
+set player:hp 1000;
+
+//set timescale 22;
+set minute 30;
+set hour 10;
+set day 0;
+applytime;
+
+
+relation comrade comrade 100;
+relation comrade police 50;
+relation comrade hostage 50;
+relation comrade troublemaker 50;
+relation comrade negotiator 70;
+relation comrade bystander 50;
+relation comrade security 50;
+relation comrade military 70;
+relation comrade press 70;
+relation comrade creature 50;
+relation comrade special 50;
+
+relation police police 100;
+relation police hostage 30;
+relation police troublemaker 30;
+relation police negotiator 30;
+relation police bystander 30;
+relation police security 30;
+relation police press 30;
+relation police military 70;
+relation police creature 30;
+relation police special 70;
+
+
+relation creature creature 40;
+relation creature hostage 50;
+relation creature troublemaker 60;
+relation creature negotiator 60;
+relation creature bystander 80;
+relation creature security 90;
+relation creature press 50;
+relation creature military 70;
+relation creature special 50;
+
+relation hostage hostage 60;
+relation hostage troublemaker 60;
+relation hostage negotiator 90;
+relation hostage bystander 50;
+relation hostage security 60;
+relation hostage press 90;
+relation hostage military 70;
+relation hostage special 50;
+
+relation bystander bystander 50;
+relation bystander troublemaker 60;
+relation bystander negotiator 90;
+relation bystander security 60;
+relation bystander press 90;
+relation bystander military 90;
+relation bystander special 50;
+
+relation negotiator negotiator 90;
+relation negotiator troublemaker 50;
+relation negotiator security 50;
+relation negotiator press 90;
+relation negotiator military 90;
+relation negotiator special 90;
+
+relation press press 90;
+relation press troublemaker 50;
+relation press security 50;
+relation press military 90;
+relation press special 90;
+
+relation troublemaker troublemaker 90;
+relation troublemaker security 50;
+relation troublemaker military 90;
+relation troublemaker special 90;
+
+relation security security 50;
+relation security military 50;
+relation security special 90;
+
+relation military military 90;
+relation military special 90;
+
+relation special special 100;

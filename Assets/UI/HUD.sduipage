@@ -1,0 +1,801 @@
+!UIPageAsset
+Id: b13777c3-a901-499c-a028-57c13a8e8c4b
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 275d55d0-2661-4639-b466-8fb357cd8657
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 0abb39df-6ae6-4b3c-9999-5ae7b46ac885
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: quantity
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 100cd43e-dfe6-40b4-8eab-eea4be846847
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ammotype
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ImageElement
+                Id: 14a96f15-0e54-4a3a-b07f-62dc3b246b25
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 4.0
+                Height: 4.0
+                Depth: 0.0
+                VerticalAlignment: Top
+                Margin: {Left: 126.0, Top: 122.0, Right: 126.0, Bottom: 126.0}
+                MinimumWidth: 4.0
+                MinimumHeight: 4.0
+                MaximumWidth: 4.0
+                MaximumHeight: 4.0
+                MaximumDepth: 3.4028235E+38
+                Name: crosshairup
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !TextBlock
+                Id: 16f0ca63-bc67-4e70-b23e-ac6c9b7b9972
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 100.0
+                Height: 100.0
+                DepthAlignment: Front
+                Margin: {Left: -100.0, Top: 27.0, Right: 100.0, Bottom: -27.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: desc
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 1e42665a-1a0e-4d76-aae0-ac93e392ae08
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ifgun
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 275d55d0-2661-4639-b466-8fb357cd8657
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    ac6706719a1635de5653fd35e3b9e0b2: !Grid ref!! 90b7734a-e255-4a15-a763-3a19b9380b95
+                    8b37bfcabac8d411a4641ef7cddd1a5f: !Grid ref!! b0d1f1f1-6d25-4329-b5d7-d845b0276910
+                    d761307d52c0b69e5966675a5ef8c4ef: !StackPanel ref!! 8c9c536b-7d62-4bdf-b7d0-c6ec6dfcb192
+                    12733e610ba895d56fdaf514abd950e5: !ImageElement ref!! 8be82d8f-8d21-40d7-9b2c-19c6119572c5
+                    8598e9175062db726d75dff50fa1ea36: !TextBlock ref!! 6f8e3b77-67a3-4f6a-8601-2028978583fe
+                    0bcb8d61d06a7afd3fb0c8e5f06691c6: !TextBlock ref!! 540a0da3-0cf5-4469-9d89-57705725b363
+                    0562298d88646f5832a6cc45aa43275b: !TextBlock ref!! 7086dabd-6344-49e1-9bab-c33fb5f08fc0
+                    8135b8bcc3b2b29b3d965f1029fddda6: !StackPanel ref!! 5d91aae1-64b9-46a0-8624-0871c10ae075
+                    f06484fcae4faf934a0dd8c108a4a89b: !Grid ref!! 6f59dc0b-e940-43b1-8a76-ea87498992b6
+                    ac0acc7013f4b535f9b9df92314d0421: !Grid ref!! f4056cd3-0490-44af-9a60-b34ad916f912
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Grid
+                Id: 28e3d76a-5562-414d-b775-e36d189c65be
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Left: 5.0, Right: 5.0, Bottom: 29.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: slotprefab
+                Children:
+                    c271f14cf4f196bdf4550370307416dd: !ImageElement ref!! 4d866fa3-ff78-4532-b163-e927ef77c7c4
+                    b38a087b48b017f30ec8e98352221605: !ImageElement ref!! ef49db6b-6aed-4667-8887-902ec98c560b
+                    5de99c85b0ec3a6e9502959a44772b3c: !TextBlock ref!! f75d65eb-29bb-4a63-b479-a32ae1684e6a
+                    14b52e064c71119a47bc509bb0682754: !TextBlock ref!! 5098330b-aeb4-4181-a568-46cb33cdda5b
+                    e87c9064b1aae55f2ad022ffee46037b: !TextBlock ref!! 2c13358a-9055-4267-b6b4-13a8459e2741
+                    4500b5213f429165ccc79636c8002a09: !TextBlock ref!! 8d8948b7-efd1-459e-975d-74e4a7f9c352
+                    45d32f4ea5b82c688f117667adefa3a7: !TextBlock ref!! 0abb39df-6ae6-4b3c-9999-5ae7b46ac885
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 2a0ad910-3c59-45b4-9876-58c911650383
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {Left: 520.0, Top: 230.44504, Right: -520.0, Bottom: -230.44507}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: name
+                Text: Wadie Haddad
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 30.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 2b6c6fb1-22e4-45ce-93e4-1c1fcc57e91b
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                VerticalAlignment: Center
+                DepthAlignment: Front
+                Margin: {Left: 6.0, Top: 6.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: inctitle
+                Text: '[1]'
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 2c13358a-9055-4267-b6b4-13a8459e2741
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ammotype
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ImageElement
+                Id: 4d866fa3-ff78-4532-b163-e927ef77c7c4
+                DependencyProperties:
+                    3612f2c2ad5949e77890831f1fc63537~Panel.ZIndexPropertyKey: -2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                CanBeHitByUser: true
+                DepthAlignment: Back
+                Margin: {}
+                MinimumWidth: 128.0
+                MinimumHeight: 128.0
+                MaximumWidth: 128.0
+                MaximumHeight: 128.0
+                MaximumDepth: 3.4028235E+38
+                DefaultWidth: 128.0
+                DefaultHeight: 128.0
+                Name: slotborder
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: 5098330b-aeb4-4181-a568-46cb33cdda5b
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ammototal
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 540a0da3-0cf5-4469-9d89-57705725b363
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 384.0
+                Height: 30.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {Left: 449.0, Top: 70.0, Right: 449.0, Bottom: -500.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: focustext
+                Text: 
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !ImageElement
+                Id: 58658f1f-2b38-44ff-adfb-32b1d0a16673
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 4.0
+                Height: 4.0
+                Depth: 0.0
+                HorizontalAlignment: Left
+                Margin: {Left: 122.0, Top: 126.0, Bottom: 126.0}
+                MinimumWidth: 4.0
+                MinimumHeight: 4.0
+                MaximumWidth: 4.0
+                MaximumHeight: 4.0
+                MaximumDepth: 3.4028235E+38
+                Name: crosshairleft
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !ImageElement
+                Id: 5d71de77-025c-4e47-8978-61ca35583a70
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 3.0
+                Height: 3.0
+                Depth: 0.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MinimumWidth: 4.0
+                MinimumHeight: 4.0
+                MaximumWidth: 4.0
+                MaximumHeight: 4.0
+                MaximumDepth: 3.4028235E+38
+                Name: crosshaircenter
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !ImageElement
+                Id: 5d81c919-6641-43b2-b484-718434b10bae
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 4.0
+                Height: 4.0
+                Depth: 0.0
+                VerticalAlignment: Bottom
+                Margin: {Left: 126.0, Top: 126.0, Right: 126.0, Bottom: 122.0}
+                MinimumWidth: 4.0
+                MinimumHeight: 4.0
+                MaximumWidth: 4.0
+                MaximumHeight: 4.0
+                MaximumDepth: 3.4028235E+38
+                Name: crosshairdown
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !StackPanel
+                Id: 5d91aae1-64b9-46a0-8624-0871c10ae075
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: 
+                Children:
+                    72d55b1463893f8adccb997caef38f5c: !Grid ref!! 95cba464-7f19-4080-8389-511e67301763
+        -   UIElement: !TextBlock
+                Id: 64677098-1cad-42bf-a17a-14b442c363ba
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 100.0
+                Height: 100.0
+                DepthAlignment: Front
+                Margin: {Left: -100.0, Right: 100.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: name
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 6c58736d-159a-40a2-969c-8a84e813ce21
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {Left: 520.0, Top: 200.44504, Right: -520.0, Bottom: -200.44507}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Inbound radio communication
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 6f59dc0b-e940-43b1-8a76-ea87498992b6
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Visibility: Collapsed
+                Width: 1280.0
+                Height: 720.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: radio
+                Children:
+                    8351f3604ce5cfc74bf02fc105205feb: !TextBlock ref!! 6c58736d-159a-40a2-969c-8a84e813ce21
+                    ce952775238272bba306351a5c5d1393: !ImageElement ref!! df00c403-b2a8-4a28-a70e-c26ca6c894c3
+                    ab0c5e9c966129789020517424ab619d: !TextBlock ref!! 2a0ad910-3c59-45b4-9876-58c911650383
+                    48eaa33e19586c046e5949cdf42a7b5a: !TextBlock ref!! bc98aa53-521f-49b5-bbe1-f724309e9aeb
+                    712118fe1b616ca1276e78c34ec9a5d1: !ImageElement ref!! cc6b6d7d-4c71-4258-a63e-8796f8478ddb
+                    d07c586c7cbf0e680773523af2bfe114: !ImageElement ref!! e57a7053-ebba-4b9b-8436-23ed5336948d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 6f8e3b77-67a3-4f6a-8601-2028978583fe
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 112.0
+                Height: 25.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Bottom
+                Margin: {Left: 95.0, Bottom: 120.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: deckTapSelect
+                Text: 
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 12.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 7086dabd-6344-49e1-9bab-c33fb5f08fc0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 255}
+                Width: 68.0
+                Height: 21.0
+                HorizontalAlignment: Right
+                VerticalAlignment: Top
+                Margin: {Top: 18.0, Right: 22.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: clock
+                Text: 12:10
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 7a3cc724-6a5f-4c2f-8a61-a9bf4efa9e2b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 384.0
+                Height: 30.0
+                HorizontalAlignment: Left
+                Margin: {Left: 244.0, Top: 333.0, Bottom: 357.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: hptext
+                Text: 84%
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ImageElement
+                Id: 7d6fe0c0-6453-4cc2-a008-4e711df8683c
+                DependencyProperties:
+                    3612f2c2ad5949e77890831f1fc63537~Panel.ZIndexPropertyKey: -2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Back
+                Margin: {}
+                MinimumWidth: 100.0
+                MinimumHeight: 100.0
+                MaximumWidth: 100.0
+                MaximumHeight: 100.0
+                MaximumDepth: 3.4028235E+38
+                DefaultWidth: 100.0
+                DefaultHeight: 100.0
+                Name: slotborder
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: 8be82d8f-8d21-40d7-9b2c-19c6119572c5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 16.0
+                Height: 16.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Bottom
+                Margin: {Left: 634.0, Right: 634.0, Bottom: 8.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: inventoryfollower
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 200, G: 14, B: 14, A: 255}
+        -   UIElement: !StackPanel
+                Id: 8c9c536b-7d62-4bdf-b7d0-c6ec6dfcb192
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Bottom
+                Margin: {Bottom: 2.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    d9728ad78074cf2c717254042f54d8ae: !Grid ref!! 28e3d76a-5562-414d-b775-e36d189c65be
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 8d8948b7-efd1-459e-975d-74e4a7f9c352
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: currentmagazine
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 90b7734a-e255-4a15-a763-3a19b9380b95
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 256.0
+                Height: 256.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: crosshair
+                Children:
+                    7353253e5e57d14234c8fda7ba2053d5: !ImageElement ref!! 5d71de77-025c-4e47-8978-61ca35583a70
+                    9ca134b64275844699c62d23b805d938: !ImageElement ref!! 14a96f15-0e54-4a3a-b07f-62dc3b246b25
+                    99c91b7af89be346dec9eb4ecafc4b9b: !ImageElement ref!! 5d81c919-6641-43b2-b484-718434b10bae
+                    4478c1f7f0b2893e3bd595ae3d81ea2a: !ImageElement ref!! 58658f1f-2b38-44ff-adfb-32b1d0a16673
+                    66138e3c89942b87e9a0856c591a46e0: !ImageElement ref!! fa41799d-9b3c-4dd9-a645-1944f704f7dd
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Grid
+                Id: 95cba464-7f19-4080-8389-511e67301763
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Left: 5.0, Bottom: 5.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: incidentprefab
+                Children:
+                    6bb550481c9634249f1972c83dccc722: !TextBlock ref!! 2b6c6fb1-22e4-45ce-93e4-1c1fcc57e91b
+                    ee603d66d6ee5dcb06932df29f0029e0: !TextBlock ref!! d8a8e559-e527-4785-8ae7-96c6208ebf08
+                    f5b3b6a6dbdbab3047eac5d41d6f529f: !ImageElement ref!! 9e9489c6-ece0-4e4c-998a-a7c8f33d93f8
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: 996ef153-dbc2-44f8-b316-aa7c7ab1169c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 95.0
+                Height: 100.0
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: icon
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: 9e9489c6-ece0-4e4c-998a-a7c8f33d93f8
+                DependencyProperties:
+                    3612f2c2ad5949e77890831f1fc63537~Panel.ZIndexPropertyKey: -2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                CanBeHitByUser: true
+                Width: 256.0
+                Height: 128.0
+                DepthAlignment: Back
+                Margin: {}
+                MinimumWidth: 512.0
+                MinimumHeight: 64.0
+                MaximumWidth: 512.0
+                MaximumHeight: 64.0
+                MaximumDepth: 3.4028235E+38
+                DefaultWidth: 512.0
+                DefaultHeight: 64.0
+                Name: slotborder
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !TextBlock
+                Id: a99116d3-f44f-450a-8964-de49b452ad5d
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: hotkey
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ImageElement
+                Id: ad9cbcce-6a6b-478f-a41e-92a881ebbd7e
+                DependencyProperties:
+                    85f8b0ab6760724f77ec6bab065347bc~Panel.ZIndexPropertyKey: -1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Visibility: Hidden
+                DepthAlignment: Back
+                Margin: {}
+                MinimumWidth: 100.0
+                MinimumHeight: 100.0
+                MaximumWidth: 100.0
+                MaximumHeight: 100.0
+                MaximumDepth: 3.4028235E+38
+                DefaultWidth: 100.0
+                DefaultHeight: 100.0
+                Name: selectedoutline
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !Grid
+                Id: b0d1f1f1-6d25-4329-b5d7-d845b0276910
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 100.0
+                Height: 100.0
+                HorizontalAlignment: Right
+                VerticalAlignment: Bottom
+                Margin: {Right: 90.0, Bottom: 145.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: selectedslot
+                Children:
+                    24932fef18a814a501d378e99fa60fd5: !ImageElement ref!! 7d6fe0c0-6453-4cc2-a008-4e711df8683c
+                    fa20ed938003490b1970206feab037c7: !ImageElement ref!! ad9cbcce-6a6b-478f-a41e-92a881ebbd7e
+                    b38a087b48b017f30ec8e98352221605: !ImageElement ref!! 996ef153-dbc2-44f8-b316-aa7c7ab1169c
+                    5de99c85b0ec3a6e9502959a44772b3c: !TextBlock ref!! a99116d3-f44f-450a-8964-de49b452ad5d
+                    14b52e064c71119a47bc509bb0682754: !TextBlock ref!! c29c33df-3265-4db4-a613-2ba3afae0351
+                    e87c9064b1aae55f2ad022ffee46037b: !TextBlock ref!! 100cd43e-dfe6-40b4-8eab-eea4be846847
+                    e9fee543cb1c6e2f28c96ce29c53b815: !TextBlock ref!! 1e42665a-1a0e-4d76-aae0-ac93e392ae08
+                    4500b5213f429165ccc79636c8002a09: !TextBlock ref!! b4a5ead0-7e55-48f9-806b-626ec3ce41d0
+                    45d32f4ea5b82c688f117667adefa3a7: !TextBlock ref!! e2305d0e-a0c6-4d0d-83b6-d8c4affb8445
+                    3dcbf2e5443ba3f3dba5005a75f53aee: !TextBlock ref!! 64677098-1cad-42bf-a17a-14b442c363ba
+                    463547716a1ec4e1b69d4bef7b2f5c14: !TextBlock ref!! 16f0ca63-bc67-4e70-b23e-ac6c9b7b9972
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: b4a5ead0-7e55-48f9-806b-626ec3ce41d0
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: currentmagazine
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: bc98aa53-521f-49b5-bbe1-f724309e9aeb
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 982.99994
+                Height: 194.0
+                VerticalAlignment: Bottom
+                Margin: {Left: 114.99994, Right: 182.00012, Bottom: 125.5}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: body
+                Text: tes
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 30.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                WrapText: true
+        -   UIElement: !TextBlock
+                Id: c29c33df-3265-4db4-a613-2ba3afae0351
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ammototal
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ImageElement
+                Id: cc6b6d7d-4c71-4258-a63e-8796f8478ddb
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 365.60074
+                Height: 235.30278
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 126.808655, Top: 79.14226}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: portrait
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: d8a8e559-e527-4785-8ae7-96c6208ebf08
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                VerticalAlignment: Center
+                DepthAlignment: Front
+                Margin: {Left: 6.0, Top: 6.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: incfx
+                Text: Infraction
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Right
+        -   UIElement: !ImageElement
+                Id: df00c403-b2a8-4a28-a70e-c26ca6c894c3
+                DependencyProperties:
+                    3612f2c2ad5949e77890831f1fc63537~Panel.ZIndexPropertyKey: -2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                CanBeHitByUser: true
+                Width: 1279.9987
+                Height: 720.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                DepthAlignment: Back
+                Margin: {Left: 0.0013427734}
+                MinimumWidth: 512.0
+                MinimumHeight: 256.0
+                MaximumWidth: 9999.0
+                MaximumHeight: 9999.0
+                MaximumDepth: 3.4028235E+38
+                DefaultWidth: 256.0
+                DefaultHeight: 64.0
+                Name: bg
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !TextBlock
+                Id: e2305d0e-a0c6-4d0d-83b6-d8c4affb8445
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: quantity
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ImageElement
+                Id: e57a7053-ebba-4b9b-8436-23ed5336948d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 456.99994
+                Height: 284.05493
+                HorizontalAlignment: Right
+                VerticalAlignment: Top
+                DepthAlignment: Front
+                Margin: {Top: 56.390106, Right: 98.683716}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: ef49db6b-6aed-4667-8887-902ec98c560b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 95.0
+                Height: 100.0
+                DepthAlignment: Front
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: icon
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !Grid
+                Id: f4056cd3-0490-44af-9a60-b34ad916f912
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 200.0
+                Height: 200.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Bottom
+                Margin: {Left: 61.0, Bottom: 90.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: cportrait
+                Children:
+                    8c1f4cf79cfd046361d88d9c9dfaadcd: !TextBlock ref!! 7a3cc724-6a5f-4c2f-8a61-a9bf4efa9e2b
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: f75d65eb-29bb-4a63-b479-a32ae1684e6a
+                DependencyProperties:
+                    3c323967973ce050e70bf0c811a3cfa9~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Front
+                Margin: {Left: 6.0, Top: 6.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: hotkey
+                Text: '[1]'
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ImageElement
+                Id: fa41799d-9b3c-4dd9-a645-1944f704f7dd
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 4.0
+                Height: 4.0
+                Depth: 0.0
+                HorizontalAlignment: Right
+                Margin: {Left: 130.0, Top: 126.0, Right: 122.0, Bottom: 126.0}
+                MinimumWidth: 4.0
+                MinimumHeight: 4.0
+                MaximumWidth: 4.0
+                MaximumHeight: 4.0
+                MaximumDepth: 3.4028235E+38
+                Name: crosshairright
+                Source: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill

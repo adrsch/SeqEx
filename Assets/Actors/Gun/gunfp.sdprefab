@@ -1,0 +1,122 @@
+!PrefabAsset
+Id: 2d7345f4-2004-4dab-ad96-d3f02a126ac7
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! e52ae54d-9308-4fe6-ae7d-818ef642d0cb
+    Parts:
+        -   Entity:
+                Id: 3af0ef62-071f-47bf-a871-6cb9051c5c50
+                SeqId:
+                    Hash: -2090739006
+                    Id: 39cff5bd-448d-4056-88c5-0d604da94f29
+                Name: Hands
+                Components:
+                    1fe64d64198b4543bfc6b549158775e4: !TransformComponent
+                        Id: 82375f76-fe93-4340-8742-9c7a472471fc
+                        Position: {X: 0.0, Y: 0.0, Z: -0.048362926}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a9c79a3bf064f945b8cb4a186967953c: ref!! 84b604ee-e110-489a-a460-1011d53095c3
+                            3d9c1cc499067d46a84e5274b42e9de3: ref!! 9d5a3c30-9254-44ab-8ca3-9d27e1a83980
+                            a71353deca5358592e3828d4afdfbbdf: ref!! 8f0847eb-3b71-42a9-9514-c8b6d1a7198d
+                    67e963ed191c3a429b961323f89766e4: !ModelComponent
+                        Id: 947cec3f-e3b9-4aae-be9c-b0153cbb6ef9
+                        Model: 544059e0-5bff-4a15-baa2-7b40adcd79c0:Models/mannequinHandModel
+                        Materials: {}
+                    42e49902f916887a01392aef7954a423: !SEQ.Sim.WeaponAnimator,SEQ.Sim
+                        Id: 8dd9bd45-02f2-488a-8633-176479c26920
+                        Animations: ref!! 352bfe88-bae2-4f98-8f90-57939f36d2b8
+                        Emitter: ref!! fbf9b9f6-ba84-4434-8a98-1dc77394f8ec
+                        MuzzleTransform: ref!! 8f0847eb-3b71-42a9-9514-c8b6d1a7198d
+                        HoldClip: hold
+                        FireOneshotClip: fire
+                        FireLoop: fireloop
+                        ReloadClip: reload
+                        ReloadNoAmmoClip: empty
+                        MuzzleEffect: null
+                        ReloadMs: 2700
+                        FireResetManual: 0.2
+                        FireResetAuto: 0.2
+                    e7f9e12d8d35d348b360d0f05ad26c60: !AnimationComponent
+                        Id: 352bfe88-bae2-4f98-8f90-57939f36d2b8
+                        Animations: {}
+        -   Folder: null
+            Entity:
+                Id: b2277fcc-5596-44d1-8e4d-1a7ded5b29cb
+                SeqId:
+                    Hash: 776993499
+                    Id: d0550507-5803-4f6a-a309-061d681792b4
+                Name: MagazineModel
+                Components:
+                    3d9c1cc499067d46a84e5274b42e9de3: !TransformComponent
+                        Id: 9d5a3c30-9254-44ab-8ca3-9d27e1a83980
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    14266246fced0e4486392429f9504708: !ModelComponent
+                        Id: 9867f858-bc7c-473f-8d43-6fd641834865
+                        Model: a60d1375-a684-4bb2-8dc9-fe20214ef6d5:Models/MagazineModel
+                        Materials: {}
+                    1668c7b09aefcc42a71e4470c1bdf8e9: !ModelNodeLinkComponent
+                        Id: 0b9cf2d9-90cb-4f76-85ce-fe4201db5233
+                        Target: null
+                        NodeName: MagazineBone
+        -   Entity:
+                Id: c6fbb2fd-185f-449f-aca8-8217cb5ff64d
+                SeqId:
+                    Hash: -1746646424
+                    Id: 57505b7e-a7cf-42de-8c56-877e4692dc37
+                Name: muzzle
+                Components:
+                    4ec2ce2acb0c637a0b93157085e5fbeb: !TransformComponent
+                        Id: 8f0847eb-3b71-42a9-9514-c8b6d1a7198d
+                        Position: {X: -0.26927957, Y: -0.22060584, Z: 1.2278285}
+                        Rotation: {X: 0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: e52ae54d-9308-4fe6-ae7d-818ef642d0cb
+                SeqId:
+                    Hash: -1777752252
+                    Id: 4e80fcbc-5c93-4abd-8106-c4f8f33bedd1
+                Name: gunfp
+                Components:
+                    7341d2840551325e215a17f2182efca9: !TransformComponent
+                        Id: bf70678d-e6c5-4027-bd0e-f1210c88b64b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4e3d3a8b49f9b459219da54b24198413: ref!! 82375f76-fe93-4340-8742-9c7a472471fc
+                    364a8896f0f005ba28579efe62bba2b0: !AudioEmitterComponent
+                        Id: fbf9b9f6-ba84-4434-8a98-1dc77394f8ec
+                        Sounds: {}
+                        UseHRTF: false
+                        DirectionalFactor: 0.0
+                        Environment: Small
+        -   Folder: null
+            Entity:
+                Id: fdfff2fc-e1dc-446d-8f85-e115eca516f1
+                SeqId:
+                    Hash: 2038078871
+                    Id: e7c15be8-8ece-4ce9-a2ad-522048a977de
+                Name: Gun
+                Components:
+                    a9c79a3bf064f945b8cb4a186967953c: !TransformComponent
+                        Id: 84b604ee-e110-489a-a460-1011d53095c3
+                        Position: {X: 1.8508038E-15, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    efd695c8917b8a42a02ea11321380575: !ModelComponent
+                        Id: ca92dd35-bba4-413c-99a4-eec6cb43e8b5
+                        Model: 1cb790c5-3919-457f-9bc1-7c9ca6b23349:Models/MachinegunModel
+                        Materials: {}
+                    39b0129ace88504c8b56a15efbeca890: !ModelNodeLinkComponent
+                        Id: 3ccb6274-72a6-4ed9-a165-3b6963a672e0
+                        Target: null
+                        NodeName: MachinegunBone

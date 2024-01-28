@@ -1,0 +1,16 @@
+print "Running startup...";
+reset-system-prefs;
+
+locale en;
+
+debugtext true;
+debugmode true;
+
+set timescale 10;
+set minute 10;
+set hour 12;
+set day 0;
+applytime;
+
+exec physics.seq;
+exec init-save;

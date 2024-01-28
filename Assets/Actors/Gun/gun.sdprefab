@@ -1,0 +1,100 @@
+!PrefabAsset
+Id: ebf84b5a-0c6b-4517-a43c-b58d50e5d3cf
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! e69dd608-2ccb-49ef-b753-c467c24a1e28
+    Parts:
+        -   Entity:
+                Id: 40150246-eab8-4731-b86a-4a1085176b44
+                SeqId:
+                    Hash: 207734958
+                    Id: 2139cd97-6515-4dc1-8352-bbbbb5a02a15
+                Name: Gun
+                Components:
+                    a9c79a3bf064f945b8cb4a186967953c: !TransformComponent
+                        Id: e2ea42da-b87e-4e1b-9382-44d98dc7db06
+                        Position: {X: -0.7336037, Y: -4.3726203E-08, Z: -1.137801}
+                        Rotation: {X: -0.70710677, Y: -0.70710677, Z: -3.090862E-08, W: -3.090862E-08}
+                        Scale: {X: 7.777, Y: 7.777, Z: 7.777}
+                        Children: {}
+                    efd695c8917b8a42a02ea11321380575: !ModelComponent
+                        Id: b192b324-271c-42fd-8c15-1b12ce051fd9
+                        Model: 1cb790c5-3919-457f-9bc1-7c9ca6b23349:Models/MachinegunModel
+                        Materials: {}
+        -   Entity:
+                Id: e69dd608-2ccb-49ef-b753-c467c24a1e28
+                SeqId:
+                    Hash: 1790017260
+                    Id: 8228219e-2b4d-49ab-881b-3e97cb41577d
+                Name: gun
+                Components:
+                    1b6e8aac9aec18b70943fcab5e0f6a7a: !TransformComponent
+                        Id: d55fc0ac-2ff5-4113-b838-0bfc88a1a57b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            13b4e2b1cef29f08de93dcb145ecfa73: ref!! e2ea42da-b87e-4e1b-9382-44d98dc7db06
+                    fb6764f9355d4e53c48705ceeb1ee579: !RigidbodyComponent
+                        Id: 771e4950-049b-45b8-8beb-be931d53f3f8
+                        SurfaceType: Metal
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter1, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10, InteractiveFilter, AIFilter, ProjectileFilter
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        AllowPush: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            42a6c0e511d16b5d1bef4b0f80f3b99d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.15
+                                Orientation: UpZ
+                                LocalOffset: {X: 0.5, Y: 0.0, Z: -0.1}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            9177783eeff778c1aef2d377d8bac183: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.18
+                                Orientation: UpZ
+                                LocalOffset: {X: -0.2, Y: 0.0, Z: -1.5}
+                                LocalRotation: {X: 0.0, Y: 0.1305262, Z: 0.0, W: 0.9914449}
+                            cd6b9a082f0999ee94de205ca0434122: !CapsuleColliderShapeDesc
+                                Length: 1.3
+                                Radius: 0.1
+                                Orientation: UpZ
+                                LocalOffset: {X: -0.8, Y: 0.0, Z: 0.15}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            09caa49c5a95344df3e00949da661a3c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.6, Y: 0.1, Z: 1.3}
+                                LocalOffset: {X: -0.5, Y: 0.0, Z: 0.2}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            a36a684fc1620176f28cec5776b619fe: !CapsuleColliderShapeDesc
+                                Length: 5.7
+                                Radius: 0.15
+                                Orientation: UpZ
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.7}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    69377e60966f898010067a02cdd5d3c7: !SEQ.Script.Core.Actor,SEQ.Script.Core
+                        Id: bf2b2775-22db-49bd-9274-080fb07460cd
+                        Mass: 1.0
+                        MainPhysicsComponent: null
+                        DropTransform: null
+                    d68cb390a29536e0d6bdd8c927de0644: !SEQ.Sim.ItemInteractable,SEQ.Sim
+                        Id: d366f642-799e-4820-a55a-30a59d24711c
+                        BaseDistanceClass: Default
+                        IsInteractionDisabled: false
+                        Actor: ref!! bf2b2775-22db-49bd-9274-080fb07460cd
+                        IsCvarItem: false
+                        Cvar: null
